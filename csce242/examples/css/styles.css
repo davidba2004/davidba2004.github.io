@@ -1,0 +1,42 @@
+/* Structure */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url('./images/castle-background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#content {
+    background: #F2F2F2;
+    width: 70%;
+    margin: auto; /* center */
+    padding: 1%; /* get text away from edge */
+    border-radius: 2%; /* round corners */
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #92A0A6;
+    padding: 1% 2%; /* top and bottom 1%, left and right 2% */
+}
+
+th {
+    background: #92A0A6;
+}
+
+/* Images */
+img {
+    box-shadow: 5px 5px dimgray;
+}
+
+/* Typography */
+h1 {
+    color: #59514F;
+}
+
+h2 {
+    color: #92A0A6;
+}
