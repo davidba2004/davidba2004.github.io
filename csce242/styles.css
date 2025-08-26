@@ -1,0 +1,36 @@
+/* Structure */
+body {
+    font-family: "Apple SD Gothic Neo", sans-serif;
+    background-color: #C9C3F9;
+}
+
+#container {
+    background-color: #E3DEFC;
+    width: 70%;
+    margin: auto;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+/* Lists */
+li {
+    color: #7D6BF2;
+}
+
+/* Typography */
+h1 {
+    color: #1C1F59;
+}
+
+h2 {
+    color: #2C15BF;
+}
+
+p {
+    color: #7D6BF2;
+}
+
+a {
+    text-decoration: none;
+    color: #FF9A37
+}

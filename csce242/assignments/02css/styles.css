@@ -1,0 +1,63 @@
+/* Structure */
+body {
+    font-family: 'Chewy', sans-serif;
+    background: url("./images/beach-background.jpeg");
+    background-size: cover;
+}
+
+#container {
+    background-color: #C4E1F2;
+    padding: 1%;
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Images */
+#photos {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 20px 5%; /* Optional: spacing between images */
+}
+
+img {
+    border-radius: 10px;
+    border: 3px solid #65768C;
+    padding: 2px;
+}
+
+/* Tables */
+table {
+    margin: auto;
+    padding: 1%;
+    border: 3px solid #403B3B;
+    background-color: #FFFCE1;
+}
+
+th, td {
+    padding: 5px 10px;
+    border-bottom: 3px solid;
+    color: #0798F2;
+}
+
+th {
+    border-bottom-color: #D99F7E;
+}
+
+td {
+    border-bottom-color: #65768C;
+}
+
+/* Typography */
+h1 {
+    color: #D99F7E;
+}
+
+h2 {
+    color: #F6842D;
+}
