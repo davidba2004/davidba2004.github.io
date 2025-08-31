@@ -1,0 +1,214 @@
+/* Structure */
+body {
+    background-color: #FBF1D1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#content {
+    background-color: #D9CAAD;
+    width: 99%;
+    margin: auto;
+    border: 1px solid #403B3B;
+}
+
+/* Header */
+#main-header {
+    padding: 5px;
+}
+
+#main-header h1 {
+    text-align: center;
+    color: #59381B;
+}
+
+/* Nav */
+#main-nav {
+    flex-direction: column;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#main-nav a {
+    color: #BF988A;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    text-align: center;
+}
+
+#main-nav li {
+    background-color: #DB5925;
+}
+
+#main-nav a:hover {
+    background-color: #FFDE9E;
+}
+
+/* Idea */
+.idea {
+    padding: 5px;
+}
+
+.idea h1 {
+    text-align: center;
+    color: #8C374E;
+}
+
+.idea img {
+    display: block;
+    margin: auto;
+}
+
+.idea p {
+    color: #517367;
+}
+
+/* Main */
+#main-content {
+    padding: 5px;
+}
+
+/* Links */
+.links {
+    background-color: #59381B;
+    border-radius: 5px;
+    color: #D9CAAD;
+}
+
+.links h1 {
+    padding: 5px;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.links a {
+    color: #D9CAAD;
+}
+
+.links a:hover {
+    color: #FFDE9E;
+}
+
+/* Titles */
+#titles {
+    text-align: center;
+}
+
+.title {
+    background-color: #517367;
+    border-radius: 5px;
+    color: #BF988A;
+    padding: 0 2px;
+}
+
+/* Galleries */
+#galleries {
+    text-align: center;
+}
+
+.gallery {
+    background-color: #BF988A;
+    border-radius: 5px;
+    color: #517367;
+    padding: 0 2px;
+}
+
+/* Footer */
+#main-footer {
+    background-color: #59381B;
+    text-align: center;
+    color: #D9CAAD;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    /* Header */
+    #main-header {
+        padding: 0;
+    }
+
+    /* Nav */
+    #main-nav ul {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #main-nav li {
+        flex: 1;
+    }
+
+    /* Ideas */
+    #ideas {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 35px;
+    }
+
+    .idea {
+        display: flex;
+        width: 49%;
+        padding: 5px 0;
+    }
+
+    .info {
+        margin-left: 10px;
+        padding: 0;
+    }
+
+    .info p {
+        padding-right: 0;
+    }
+
+    /* Main */
+    #main-content {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        gap: 10px;
+    }
+
+    /* Links */
+    .links {
+        min-width: 16.5%;
+        gap: 10px;
+    }
+
+    /* Titles */
+    #titles {
+        min-width: 33%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .title {
+        width: 49%;
+        padding: 0;
+    }
+
+    /* Galleries */
+    #galleries {
+        min-width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .gallery {
+        width: 32%;
+        padding: 0;
+    }
+
+    /* Footer */
+    #main-footer {
+        margin-top: 10px;
+    }
+
+}
