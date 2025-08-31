@@ -170,7 +170,7 @@ body {
     #main-content {
         display: flex;
         margin: 0;
-        padding: 0;
+        padding: 10px;
         gap: 10px;
     }
 
@@ -178,8 +178,9 @@ body {
     .links {
         min-width: 16.5%;
         gap: 10px;
+        padding-left: 10px;
     }
-
+    
     /* Titles */
     #titles {
         min-width: 33%;
@@ -204,11 +205,6 @@ body {
     .gallery {
         width: 32%;
         padding: 0;
-    }
-
-    /* Footer */
-    #main-footer {
-        margin-top: 10px;
     }
 
 }
