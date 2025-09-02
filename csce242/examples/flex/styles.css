@@ -17,6 +17,28 @@ body {
     padding: 5px;
 }
 
+#main-content section, #main-content aside {
+    padding: 5px;
+}
+
+.squirrel {
+    background-color: burlywood;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/*
+.squirrel .columns div {
+    width: 30%;
+}
+*/
+
+/* Images */
+img {
+    max-width: 100%;
+}
+
 /* Main Navigation */
 #main-nav ul {
     list-style-type: none; /* Remove the bullets */
@@ -62,6 +84,26 @@ h1 {
     /* Columns */
     .columns {
         display: flex;
+    }
+
+    .one {
+        flex: 1;
+    }
+
+    .two {
+        flex: 2;
+    }
+
+    .three {
+        flex: 3;
+    }
+
+    .four {
+        flex: 4;
+    }
+
+    .five {
+        flex: 5;
     }
 
     /* Main Nav */
