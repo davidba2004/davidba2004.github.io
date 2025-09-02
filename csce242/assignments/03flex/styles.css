@@ -136,7 +136,6 @@ body {
     /* Nav */
     #main-nav ul {
         display: flex;
-        width: 100%;
         justify-content: center;
     }
 
@@ -148,12 +147,14 @@ body {
     #ideas {
         display: flex;
         flex-wrap: wrap;
-        gap: 10px 35px;
+        gap: 5px;
     }
 
     .idea {
         display: flex;
-        width: 49%;
+        flex: 1;
+        min-width: 49%;
+        max-width: 49%;
         padding: 5px 0;
     }
 
@@ -169,42 +170,48 @@ body {
     /* Main */
     #main-content {
         display: flex;
-        margin: 0;
-        padding: 10px;
-        gap: 10px;
+        gap: 5px;
     }
 
     /* Links */
     .links {
-        min-width: 16.5%;
-        gap: 10px;
-        padding-left: 10px;
+        flex: 1;
+        width: 12.5%;
     }
 
     /* Titles */
     #titles {
-        min-width: 33%;
+        flex: 2;
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 5px;
     }
 
     .title {
-        width: 49%;
-        padding: 0;
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+
+    .title img {
+        max-width: 100%;
     }
 
     /* Galleries */
     #galleries {
-        min-width: 50%;
+        flex: 3;
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 5px;
     }
 
     .gallery {
-        width: 32%;
-        padding: 0;
+        flex: 0 0 calc(33% - 10px);
+        max-width: calc(33% - 10px);
     }
+
+    .gallery img {
+        max-width: 100%;
+    }
+
 
 }
