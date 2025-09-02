@@ -89,4 +89,8 @@ a {
         flex-direction: column;
         width: 32%;
     }
+
+    .assignment img {
+        max-width: 100%;
+    }
 }
