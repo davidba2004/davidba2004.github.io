@@ -1,0 +1,95 @@
+/* Structure */
+body {
+    font-family: "Apple SD Gothic Neo", sans-serif;
+    background-color: #9BABBF;
+}
+
+#content {
+    background-color: #B8CCD9;
+    width: 70%;
+    margin: auto;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#main-header {
+    border: 2px solid #736346;
+    border-radius: 10px;
+    padding: 1%;
+    text-align: center;
+}
+
+#main-content ol {
+    list-style-type: none;
+}
+
+
+#main-footer {
+
+}
+
+/* Lists */
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.assignment {
+    width: 85%;
+    background-color: #D99F7E;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 2px;
+    margin: 5% auto;
+}
+
+.assignment h2 {
+    color: #736346;
+    display: block;
+}
+
+.assignment p {
+    display: block;
+}
+
+.assignment:hover {
+    background-color: #C9C3F9;
+}
+
+/* Typography */
+h1 {
+    color: #736346;
+}
+
+h2 {
+    color: #A68D6F;
+}
+
+p {
+    color: #8C374E;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Larger Devices */
+@media only screen and (min-width: 768px) {
+    #main-content ol {
+        display: flex;
+        flex:1;
+        gap: 1%;
+        align-items: center;
+    }
+
+    .assignment {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        width: 32%;
+    }
+
+    .assignment img {
+        max-width: 100%;
+    }
+}
