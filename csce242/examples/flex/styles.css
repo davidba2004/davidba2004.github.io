@@ -1,12 +1,17 @@
+:root {
+    --primary-color: #667302;
+    --secondary-color: antiquewhite;
+}
+
 body {
-    background-color: #667302;
+    background-color: var(--primary-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #content {
     width: 95%;
     margin: auto;
-    background-color: antiquewhite;
+    background-color: var(--secondary-color);
     border-radius: 5px;
     padding: 5px;
 }
@@ -15,6 +20,7 @@ body {
     background-color: #D9D6B0;
     border-radius: 5px;
     padding: 5px;
+    position: relative;
 }
 
 #main-content section, #main-content aside {
@@ -28,11 +34,19 @@ body {
     margin: 5px;
 }
 
-/*
-.squirrel .columns div {
-    width: 30%;
+#showcase {
+    position: relative;
 }
-*/
+
+#showcase p {
+    background: rgba(0,0,0,0.7%);
+    color: navy;
+    padding: 10x;
+    width: fit-content;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+}
 
 /* Images */
 img {
@@ -40,14 +54,33 @@ img {
 }
 
 /* Main Navigation */
-#main-nav ul {
+nav ul {
     list-style-type: none; /* Remove the bullets */
     padding: 0;
 }
 
+nav a {
+    text-decoration: none;
+}
+
+#login-nav {
+    position: absolute;
+    top: 2.5%;
+    right: 2.5%;
+}
+
+#login-nav a {
+    color: #667302;
+    padding: 5px;
+}
+
+#login-nav li:hover {
+    border-bottom: 1px solid #667302;
+}
+
+
 #main-nav a {
     padding: 10px 5px;
-    text-decoration: none;
     display: block;
     color: #667302;
 }
@@ -124,4 +157,13 @@ h1 {
         background-color: #D9D6B0;
         border-bottom: 1px solid black;
     }
+
+    #login-nav li:not(:last-child)::after {
+        content: "|";
+    }
+
+    .hide-small {
+        display: block;
+    }
+
 }
