@@ -1,0 +1,773 @@
+/* Structure */
+:root {
+    --garnet: rgb(117, 1, 9);
+    --black: rgb(0,0,0);
+    --white: rgb(255,255,255);
+    --teal: rgb(39, 64, 76);
+    --pink: rgb(188,61,69);
+    --dark-garnet: rgb(93,14,16);
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+}
+
+/* Header */
+#main-header {
+    background-color: var(--black);
+}
+
+#tiny-nav {
+    background-color: var(--black);
+}
+
+#tiny-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 2.5%;
+}
+
+#tiny-nav ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+#tiny-nav ul li:not(:last-child)::after {
+    content: '|';
+    margin: 0 10px;
+    color: var(--white);
+}
+
+#tiny-nav ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: xx-small;
+}
+
+#tiny-nav ul li a:hover {
+    background-color: var(--pink);
+}
+
+#above-nav {
+    margin: 2.5%;
+}
+
+#logo img {
+    max-width: 40%;
+}
+
+#college-name {
+    background-color: var(--black);
+}
+
+#college-name a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: small;
+}
+
+#main-nav {
+    background-color: var(--garnet);
+    max-width: 100%;
+}
+
+#choices ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#choices ul li {
+    display: inline-block;
+    margin: 0 5%;
+    max-width: 12.5%;
+}
+
+#choices ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: medium;
+    text-align: center;
+}
+
+#choices ul li:hover {
+    background-color: var(--dark-garnet);
+}
+
+/* Body */
+#main-content {
+    background-color: var(--white);
+    padding: 0;
+    margin: 0;
+}
+
+#college-title {
+    background-color: var(--white);
+}
+
+#college-title-img img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#college-title-title h2 {
+    font-size: large;
+    font-weight: bold;
+    color: var(--garnet);
+    margin: auto 5px;
+    padding: 20px;
+}
+
+#college-title-text {
+    margin: 5%;
+}
+
+#college-title-text p {
+    font-size: x-large;
+    margin: auto;
+}
+
+#prepared-for-future {
+    background-color: var(--garnet);
+    margin: 0;
+}
+
+#prepared-for-future-info {
+    color: var(--white);
+    margin: 50px 50px 0;
+}
+
+#prepared-for-future-info-text h2 {
+    font-size: xx-large;
+}
+
+#prepared-for-future-info-text p {
+    font-size: medium;
+    font-weight: lighter;
+    margin: auto;
+}
+
+#prepared-for-future-info-button {
+    background-color: var(--black);
+    border: 1px solid var(--white);
+    width: 150px;
+    height: 50px;
+    margin: 12px 0;
+}
+
+#prepared-for-future-info-button a {
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#prepared-for-future-info-button a h3 {
+    margin: auto;
+    color: var(--white);
+    font-size: smaller;
+}
+
+#prepared-for-future-info-button:hover {
+    background-color: var(--white);
+}
+
+#prepared-for-future-info-button:hover a h3 {
+    color: var(--garnet);
+}
+
+#prepared-for-future-img {
+    margin: 5%;
+}
+
+#prepared-for-future-img img {
+    margin: 0 0 5%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#find-a-program {
+    background-color: var(--white);
+    margin: 0;
+}
+
+#find-a-program-info {
+    text-align: center;
+    margin: 60px 0;
+}
+
+#find-a-program-info h2 {
+    font-size: xx-large;
+    color: var(--garnet);
+}
+
+#find-a-program-info p {
+    line-height: 2;
+}
+
+.programs {
+    display: flex;
+}
+
+.program {
+    margin: 50px auto;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    background-color: var(--garnet);
+    border: 2px solid var(--white);
+}
+
+.program a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.program h3 {
+    font-size: small;
+    margin: 15px 0;
+}
+
+.program:hover {
+    background-color: var(--white);
+    border-color: var(--garnet);
+}
+
+.program:hover h3 {
+    color: var(--garnet);
+}
+
+#impacting-sc {
+    background-color: var(--white);
+    position: relative;
+    height: 750px;
+}
+
+#impacting-sc img {
+    width: 100%;
+    height: 70%;
+}
+
+#impacting-sc-text {
+    max-width: 85%;
+    background-color: var(--black);
+    color: var(--white);
+    margin: 0 auto;
+    padding: 5%;
+    position: relative;
+    top: -14%;
+}
+
+#impacting-sc-text p {
+    line-height: 2;
+}
+
+#impacting-sc-text h2 {
+    font-size: xx-large;
+}
+
+#impacting-sc-button {
+    background-color: var(--garnet);
+    border: 2px solid var(--white);
+    width: 200px;
+    height: 50px;
+    margin: 12px 0;
+    text-align: center;
+}
+
+#impacting-sc-button a {
+    text-decoration: none;
+}
+
+#impacting-sc-button h3 {
+    text-decoration: none;
+    color: var(--white);
+    font-size: small;
+    padding: 5px;
+}
+
+#impacting-sc-button:hover {
+    background-color: var(--white);
+}
+#impacting-sc-button:hover a h3 {
+    color: var(--garnet);
+}
+
+#luz-carlita {
+    background-color: var(--garnet);
+}
+
+#luz-carlita-img img {
+    margin: 25px 25%;
+    width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#luz-carlita-text {
+    max-width: 85%;
+    margin: auto;
+    color: var(--white);
+    line-height: 2;
+}
+
+#luz-carlita-text h4 {
+    font-weight: lighter;
+    font-size: large;
+}
+
+#luz-carlita-text p {
+    font-size: small;
+}
+
+
+#powerful-network {
+    background-color: var(--teal);
+    color: var(--white);
+    width: 100%;
+}
+
+#powerful-network-info {
+    margin: auto 50px;
+}
+
+#powerful-network-info-text h2 {
+    width:80%;
+    font-size: xx-large;
+}
+
+#powerful-network-info-text p {
+    font-weight: lighter;
+    line-height: 2;
+}
+
+#powerful-network-info-button {
+    background-color: var(--garnet);
+    border: 2px solid var(--white);
+    width: 125px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#powerful-network-info-button a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: smaller;
+}
+
+#powerful-network-info-button h3 {
+    margin: 15px 10px;
+}
+
+#powerful-network-info-button:hover {
+    background-color: var(--white);
+    border-color: var(--garnet);
+}
+
+#powerful-network-info-button:hover a h3 {
+    color: var(--garnet);
+}
+
+#powerful-network-img {
+    margin: 5%;
+}
+
+#powerful-network-img img {
+    margin: 0 0 5%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#news {
+    background-color: var(--white);
+}
+
+#news-header h1{
+    color: var(--garnet);
+    font-size: x-large;
+    text-align: center;
+}
+
+.story {
+    margin: 25px auto;
+}
+
+.story img {
+    margin: 0 5%;
+    width: 90%;
+}
+
+.story h2 {
+    margin: 2.5% 10%;
+    color: var(--garnet);
+    font-size: large;
+}
+
+.story p {
+    margin: auto 10%;
+    line-height: 2;
+}
+
+.story .story-button {
+    background-color: var(--garnet);
+    height: 40px;
+    margin: 30px 10%;
+    border: 2px solid var(--white);
+}
+
+.story .story-button a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.story .story-button h3 {
+    margin: 10px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.story .story-button:hover {
+    background-color: var(--white);
+    border-color: var(--garnet);
+}
+
+.story .story-button:hover h3 {
+    color: var(--garnet);
+}
+
+#empowering {
+    background-color: var(--black);
+}
+
+#empowering-info {
+    color: var(--white);
+}
+
+#empowering-info-text {
+    max-width: 85%;
+    margin: auto;
+}
+
+#empowering-info-text h2 {
+    font-size: xx-large;
+    width: 80%;
+    padding-top: 25px;
+}
+
+#empowering-info-text p {
+    font-size: smaller;
+    line-height: 2;
+}
+
+#empowering-info-button {
+    background-color: var(--garnet);
+    border: 2px solid var(--white);
+    width: 125px;
+    height: 50px;
+    margin: 40px;
+}
+
+#empowering-info-button a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: small;
+    text-align: center;
+}
+
+#empowering-info-button:hover {
+    background-color: var(--white);
+    border-color: var(--garnet);
+}
+
+#empowering-info-button:hover a {
+    color: var(--garnet);
+}
+
+#empowering-img {
+    margin: 5%;
+}
+
+#empowering-img img {
+    margin: 0 0 5%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#footer-above-actual-footer {
+    background-color: var(--white);
+}
+
+#footer-below-actual-footer {
+
+}
+
+#faaf-header a {
+    text-decoration: none;
+    color: var(--garnet);
+}
+
+#faaf-header h1 {
+    font-size: large;
+    text-align: center;
+    width: fit-content;
+    margin: 15px auto;
+}
+
+#faaf-header a:hover h1 {
+    color: var(--white);
+    background-color: var(--pink);
+}
+
+#faaf-header-logos {
+}
+
+#faaf-header-logos h2 {
+    font-size: smaller;
+    height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    width: 50%;
+    background-color: var(--black);
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+
+#faaf-header-logos ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.faaf-logo {
+    max-width: 15%;
+    margin: auto;
+}
+
+#faaf-nav {
+
+}
+
+#faaf-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#faaf-nav ul li a {
+    text-decoration: none;
+    color: var(--garnet);
+    font-size: small;
+    text-align: center;
+}
+
+#faaf-nav ul li a h3 {
+    width: fit-content;
+    margin: 10px auto;
+}
+
+#faaf-nav ul li a:hover h3 {
+    color: var(--white);
+    background-color: var(--pink);
+}
+
+#faaf-address {
+    border-top: 1px solid gray;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+#faaf-address p {
+    font-size: small;
+    color: var(--black);
+}
+
+#faaf-address a {
+    text-decoration: none;
+}
+
+#faaf-address a p {
+    color: var(--garnet);
+    width: fit-content;
+    margin: 5px auto;
+}
+
+#faaf-address a:hover p {
+    color: var(--white);
+    background-color: var(--pink);
+}
+
+/* Footer */
+#main-footer {
+    background-color: var(--garnet);
+}
+
+#footer-header {
+    margin: 10px;
+}
+
+#footer-header-logo {
+    padding: 10px;
+}
+
+#footer-header-logo img{
+    display: flex;
+    margin: auto;
+}
+
+
+#footer-header-socials {
+    display: flex;
+    max-width: 33%;
+    margin: auto;
+}
+
+#footer-header-socials a {
+    margin: auto;
+}
+
+#footer-content h3 {
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+    margin: 5px 30px;
+    font-size: medium;
+    padding: 5px 0;
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.footer-list .list-fragment {
+    width: 50%;
+    margin: 0;
+}
+
+.footer-list .list-fragment ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 30px;
+}
+
+.footer-list .list-fragment ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: smaller;
+}
+
+.footer-list .list-fragment ul li a h4 {
+    margin-bottom: 7px;
+    margin-top: 0;
+    font-weight: normal;
+    width: fit-content;
+}
+
+.footer-list .list-fragment ul li a:hover h4 {
+    background-color: var(--pink);
+}
+
+#fine-print {
+    background-color: var(--black);
+    border-top: 1px solid var(--white);
+    height: 100%;
+}
+
+#fine-print ul {
+    padding: 0;
+    list-style: none;
+    min-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fine-print ul li {
+    display: flex;
+    margin: 5px;
+}
+
+#fine-print ul li:not(:last-child)::after {
+    content: "|";
+    color: var(--white);
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+#fine-print ul li a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 0;
+    margin: 0;
+}
+
+#fine-print ul li a:hover {
+    background-color: var(--pink);
+}
+
+#fine-print ul li a h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: x-small;
+}
+
+@media only screen and (min-width: 768px) {
+    .one {
+        flex: 1;
+    }
+
+    .two {
+        flex: 2;
+    }
+
+    .three {
+        flex: 3;
+    }
+
+
+    /* Header */
+    #above-nav {
+        display: flex;
+        margin: 20px 20%;
+    }
+
+    #above-nav-logo {
+        max-width: 30%;
+    }
+
+    #college-name h2 {
+        font-size: x-large;
+    }
+
+
+    /* Main */
+
+
+    /* Footer */
+    #footer-header {
+        display: flex;
+        margin: auto;
+    }
+
+    #footer-header-logo {
+        width: fit-content;;
+        margin: auto;
+    }
+
+    #footer-header-socials {
+        width: 20%;
+        margin: auto;
+    }
+
+    #footer-content {
+        display: flex;
+        width: fit-content;
+        margin: auto;
+    }
+}
