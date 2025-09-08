@@ -74,24 +74,35 @@ body {
     max-width: 100%;
 }
 
+#choices {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5%;
+}
+
 #choices ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: flex-end;
+    width: 665px;
+    max-width: 50%;
 }
 
 #choices ul li {
     display: inline-block;
-    margin: 0 5%;
+    margin: 0 2.5%;
     max-width: 12.5%;
 }
 
 #choices ul li a {
     text-decoration: none;
     color: var(--white);
-    font-size: medium;
+    width: fit-content;
+}
+
+#choices ul li a h4 {
+    font-size: small;
+    width: fit-content;
     text-align: center;
 }
 
@@ -734,7 +745,8 @@ body {
     /* Header */
     #above-nav {
         display: flex;
-        margin: 20px 20%;
+        margin: 20px 15%;
+        gap: 25%;
     }
 
     #above-nav-logo {
@@ -743,6 +755,11 @@ body {
 
     #college-name h2 {
         font-size: x-large;
+        text-align: center;
+    }
+
+    #main-nav li a {
+        margin: auto;
     }
 
 
