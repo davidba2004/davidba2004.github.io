@@ -6,6 +6,7 @@
     --teal: rgb(39, 64, 76);
     --pink: rgb(188,61,69);
     --dark-garnet: rgb(93,14,16);
+    --clear-white: rgb(255,255,255,60%);
 }
 
 body {
@@ -84,24 +85,24 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 665px;
-    max-width: 50%;
+    display: flex;
+    min-width: 300px;
 }
 
 #choices ul li {
     display: inline-block;
     margin: 0 2.5%;
     max-width: 12.5%;
+    min-width: fit-content;
 }
 
 #choices ul li a {
     text-decoration: none;
     color: var(--white);
-    width: fit-content;
 }
 
 #choices ul li a h4 {
-    font-size: small;
+    font-size: xx-small;
     width: fit-content;
     text-align: center;
 }
@@ -316,7 +317,6 @@ body {
     margin: 25px 25%;
     width: 50%;
     border-radius: 50%;
-    object-fit: cover;
 }
 
 #luz-carlita-text {
@@ -741,6 +741,10 @@ body {
         flex: 3;
     }
 
+    .flex {
+        display: flex;
+    }
+
 
     /* Header */
     #above-nav {
@@ -762,8 +766,217 @@ body {
         margin: auto;
     }
 
+    #choices ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 665px;
+        max-width: 50%;
+    }
 
     /* Main */
+
+    /* College Title */
+    #college-title {
+        position: relative;
+    }
+
+    #college-title-img img {
+        max-height: 600px;
+    }
+
+    #college-title-title {
+        position: relative;
+        left: 0;
+        bottom: 100px;
+        background-color: var(--clear-white);
+        max-width: 50%;
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    #college-title-text {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    /* Prepared for future */
+    #prepared-for-future {
+        display: flex;
+    }
+
+    #prepared-for-future-img {
+        flex: 1;
+    }
+
+    #prepared-for-future-info {
+        flex: 1;
+        margin: auto;
+        padding-left: 20%;
+    }
+
+    #prepared-for-future-info-text {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Find a program */
+    #find-a-program {
+        max-width: 50%;
+        margin: auto;
+    }
+
+    #find-a-program-info h2 {
+        font-size: xx-large;
+    }
+
+    /* Impacting SC */
+    #impacting-sc {
+        position: relative;
+    }
+
+    #impacting-sc img {
+        height: 100%;
+    }
+
+    #impacting-sc-text {
+        max-width: 32%;
+        max-height: 20%;
+        position: relative;
+        top: -50%;
+        left: 25%;
+        padding-top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #impacting-sc-button {
+        margin: 0;
+    }
+
+    /* Luz Carlita */
+    #luz-carlita {
+        height: 405px;
+        max-height: 100%;
+        display: flex;
+    }
+
+    #luz-carlita-img {
+        height: 100%;
+        flex: 1;
+    }
+
+    #luz-carlita-img img{
+        max-width: 100%;
+        max-height: 100%;
+        padding: 0;
+        margin: 0 25%;
+    }
+
+    #luz-carlita-text {
+        flex: 1;
+    }
+
+    /* Powerful Network */
+    #powerful-network {
+        display: flex;
+        max-height: 640px;
+    }
+
+    #powerful-network-info {
+        flex: 1;
+    }
+
+    #powerful-network-info-text {
+        max-width: 75%;
+        margin-left: 35%;
+    }
+
+    #powerful-network-info-button {
+        margin-left: 35%;
+    }
+
+    #powerful-network-img {
+        flex: 1;
+        margin: 0;
+    }
+
+    #powerful-network-img img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    /* News */
+
+    /* Empowering */
+    #empowering {
+        display: flex;
+        justify-content: center;
+    }
+
+    #empowering-info {
+        max-width: 25%;
+        flex: 1;
+    }
+
+    #empowering-img {
+        flex: 1;
+        max-width: 25%;
+    }
+
+    /* FAAF */
+    #footer-above-actual-footer {
+        display: flex;
+        max-height: 150px;
+    }
+
+    #faaf-header {
+        flex: 2;
+    }
+
+    #faaf-header {
+        margin: 0 5%;
+    }
+
+    #faaf-header-logos {
+        display: flex;
+        justify-content: flex-end;
+        gap: 5%;
+    }
+
+    #faaf-header-logos a h2 {
+        margin: 5% 0;
+        width: 100%;
+    }
+
+    #faaf-header-logos ul li {
+        margin: auto 5px;
+    }
+
+    #faaf-nav {
+        flex: 1;
+        max-width: 25%;
+    }
+
+    #faaf-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10% auto;
+    }
+
+    #faaf-nav ul li {
+        margin: auto;
+    }
+
+    #faaf-address {
+        flex: 1;
+        max-width: 25%;
+        border: none;
+    }
 
 
     /* Footer */
