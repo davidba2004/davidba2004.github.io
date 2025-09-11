@@ -1,0 +1,124 @@
+/* Misc */
+:root {
+    --main-background-color: #A67F5D;
+    --books-background-color: #BFBFBF;
+    --search-link-background-color: #274259;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    flex: 1;
+}
+
+.two {
+    flex: 2;
+}
+
+.three {
+    flex: 3;
+}
+
+.four {
+    flex: 4;
+}
+
+.five {
+    flex: 5;
+}
+
+
+/* Index */
+/* Structure */
+body {
+    background-color: var(--main-background-color);
+}
+
+/* Header */
+#main-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#main-header h2 {
+    justify-content: center;
+}
+
+#nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+}
+
+#nav img {
+    max-width: 25px;
+}
+
+/* Main */
+#search-link {
+    background-color: var(--search-link-background-color);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+#search-link h4 {
+    color: var(--books-background-color);
+}
+
+#search-link button {
+    margin-bottom: 2.5%;
+    background-color: var(--books-background-color);
+    color: var(--search-link-background-color);
+    border-radius: 5px;
+}
+
+/* Explore */
+.explore {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Books */
+.books {
+    background-color: var(--books-background-color);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 80%;
+    list-style: none;
+    padding: 0;
+}
+
+.books li {
+    width: 32%;
+    margin: auto;
+}
+
+.book {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.book img {
+    max-width: 100%;
+    margin: auto auto 0;
+}
+
+.book h3 {
+    margin: 0 auto 10%;
+    padding-top: 0;
+}
