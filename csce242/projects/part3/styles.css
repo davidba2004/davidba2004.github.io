@@ -48,14 +48,14 @@ body {
     justify-content: center;
 }
 
-#nav {
+.nav {
     position: absolute;
     top: 0;
     right: 0;
     width: 10%;
 }
 
-#nav img {
+.nav img {
     max-width: 25px;
 }
 
@@ -121,4 +121,53 @@ body {
 .book h3 {
     margin: 0 auto 10%;
     padding-top: 0;
+}
+
+/* Profile */
+
+#profile-info {
+    margin: auto;
+    text-align: center;
+}
+
+#my-reviews {
+    margin: auto;
+    background-color: var(--books-background-color);
+    text-align: center;
+    width: 80%;
+}
+
+.reviews {
+    padding: 2.5% 5%;
+    margin: auto;
+    text-align: left;
+}
+
+.review {
+    display: flex;
+    margin: auto;
+    gap: 5%;
+}
+
+/* Search */
+#search-box {
+    display: flex;
+    margin: 10% auto 5%;
+    width: 35%;
+    justify-content: center;
+}
+
+#search-box input {
+    margin: 0;
+    width: 100%;
+    height: 25px;
+}
+
+#search-content .explore .books {
+    max-width: 100%;
+}
+
+#search-content .explore .books li {
+    width: 23%;
+    margin: auto;
 }
