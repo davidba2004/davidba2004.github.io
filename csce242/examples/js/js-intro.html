@@ -36,8 +36,18 @@
             </header>
             <main class="columns examples">
                 <section>
-                    <button id="btn-click-me">Click Me</button>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nulla justo, consequat ut sapien ac, placerat ultricies quam. Ut dignissim risus lectus, vel viverra mauris ullamcorper id. Aenean ultricies arcu tortor, viverra pellentesque risus elementum quis. Donec feugiat consequat libero nec vestibulum. Nulla facilisi. Vestibulum venenatis nulla sed tellus congue pulvinar. Fusce pellentesque facilisis erat at maximus.</p>
+                    <button id="happy-btn">Happy</button>
+                    <button id="sad-btn">Sad</button>
+                    <button id="clear-btn">Clear</button>
+                    <p id="p-welcome">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nulla justo, consequat ut sapien ac, placerat ultricies quam. Ut dignissim risus lectus, vel viverra mauris ullamcorper id. Aenean ultricies arcu tortor, viverra pellentesque risus elementum quis. Donec feugiat consequat libero nec vestibulum. Nulla facilisi. Vestibulum venenatis nulla sed tellus congue pulvinar. Fusce pellentesque facilisis erat at maximus.</p>
+                </section>
+                <section>
+                    <p>
+                        <label for="txt-emotion">Enter Emotion:</label>
+                        <input type="text" id="txt-emotion">
+                    </p>
+                    <p id="p-emotion"></p>
+                    <img  id="img-emotion" src="https://dummyimage.com/100x100/000/fff" alt="placeholder" class="hidden">
                 </section>
             </main>
             <footer>
@@ -45,5 +55,6 @@
             </footer>
         </div>
         <script src="js/intro.js"></script>
+        <script src="js/toggle-nav.js"></script>
     </body>
 </html>
