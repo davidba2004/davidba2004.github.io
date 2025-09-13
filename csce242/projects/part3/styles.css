@@ -113,6 +113,11 @@ body {
     flex-direction: column;
 }
 
+.book a {
+    text-decoration: none;
+    color: black;
+}
+
 .book img {
     max-width: 100%;
     margin: auto auto 0;
@@ -170,4 +175,62 @@ body {
 #search-content .explore .books li {
     width: 23%;
     margin: auto;
+}
+
+/* Book */
+.book-large {
+    width: 60%;
+    margin: auto;
+}
+
+.book-large .book {
+    width: 100%;
+}
+
+.book-large .book img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.book-large .book h3 {
+    font-size: xxx-large;
+    margin-top: 0;
+}
+
+#review-button {
+    text-align: center;
+}
+
+#review-button button {
+    width: 30%;
+    font-size: large;
+    margin: auto;
+}
+
+
+#stars {
+    display: flex;
+    justify-content: center;
+}
+
+#summary {
+    background-color: var(--books-background-color);
+    padding: 1% 5%;
+    border-radius: 10px;
+}
+
+#summary h1 {
+    text-align: center;
+    margin: 0;
+}
+
+#book-reviews {
+    background-color: var(--books-background-color);
+    margin: 5% auto;
+    border-radius: 10px;
+}
+
+#book-reviews h2 {
+    text-align: center;
+    margin: 0;
 }
