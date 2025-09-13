@@ -321,6 +321,7 @@ body {
 
 
 @media only screen and (min-width: 768px) {
+    /* Index */
     .nav img {
         max-width: 40px;
     }
@@ -332,5 +333,31 @@ body {
 
     #index-content {
         display: flex;
+    }
+
+    /* Profile */
+    #my-sway {
+        font-size: xx-large;
+    }
+
+    #profile-content {
+        display: flex;
+    }
+
+    #profile-info {
+        width: 80%;
+        margin: auto auto 10%;
+    }
+
+    #profile-info h2 {
+        background-color: var(--books-background-color);
+        width: 50%;
+        margin: auto;
+    }
+
+    #my-reviews {
+        margin: auto;
+        width: 95%;
+        height: 98.5%;
     }
 }
