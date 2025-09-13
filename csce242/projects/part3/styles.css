@@ -372,4 +372,21 @@ body {
         font-size: xx-large;
         height: 10%;
     }
+
+    /* Book */
+    #book-content {
+        display: flex;
+    }
+
+    #book-content-left {
+        display: flex;
+        flex-direction: column;
+        margin: 2.5% auto;
+    }
+
+    #book-content-right {
+        display: flex;
+        flex-direction: column;
+        margin: 2.5% auto;
+    }
 }
