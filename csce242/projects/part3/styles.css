@@ -52,7 +52,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 10%;
+    width: 15%;
 }
 
 .nav img {
@@ -126,6 +126,11 @@ body {
 .book h3 {
     margin: 0 auto 10%;
     padding-top: 0;
+}
+
+#contact-us a {
+    text-decoration: none;
+    color: var(--books-background-color);
 }
 
 /* Profile */
@@ -278,4 +283,35 @@ body {
     border-radius: 10px;
     background-color: var(--search-link-background-color);
     color: var(--books-background-color);
+}
+
+#contact-us-top img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#contact-us-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: var(--books-background-color);
+    width: 35%;
+    min-width: fit-content;
+    gap: 5%;
+    margin: auto;
+}
+
+#contact-us-bottom section {
+    min-width: fit-content;
+    background-color: var(--books-background-color);
+}
+
+
+#contact-us-bottom ul {
+    padding: 0;
+    list-style: none;
+    margin: auto;
+}
+
+#contact-us-bottom ul li p{
+    color: var(--search-link-background-color)
 }
