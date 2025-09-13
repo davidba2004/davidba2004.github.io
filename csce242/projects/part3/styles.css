@@ -229,7 +229,7 @@ body {
 #summary h1 {
     text-align: center;
     margin: 0;
-    flex-direction: row-reverse;qwdewflw=ek-gr=-0gkre\=-kg
+    flex-direction: row-reverse;
 }
 
 #book-reviews {
@@ -365,5 +365,11 @@ body {
     #contact-us-top {
         width: 80%;
         margin: auto;
+    }
+
+    /* Search */
+    #search-box input {
+        font-size: xx-large;
+        height: 10%;
     }
 }
