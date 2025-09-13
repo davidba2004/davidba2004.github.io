@@ -234,3 +234,48 @@ body {
     text-align: center;
     margin: 0;
 }
+
+/* Review */
+#rating {
+    display: flex;
+    gap: 0;
+}
+
+#rating h2 {
+    padding: 0;
+    margin: 0 1% 0 auto;
+    text-align: right;
+}
+
+#rating input {
+    font-size: large;
+    width: 25%;
+    margin: 0 auto;
+}
+
+#review-right {
+    background-color: var(--books-background-color);
+}
+
+#review-right h2 {
+    text-align: center;
+}
+
+#review-right textarea {
+    font-size: large;
+    width: 80%;
+    margin: 0 10% 2.5%;
+}
+
+#review-footer {
+    text-align: center;
+    margin: 10% auto;
+}
+
+#submit-review {
+    width: 50%;
+    font-size: xx-large;
+    border-radius: 10px;
+    background-color: var(--search-link-background-color);
+    color: var(--books-background-color);
+}
