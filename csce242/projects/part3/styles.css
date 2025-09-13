@@ -384,9 +384,32 @@ body {
         margin: 2.5% auto;
     }
 
+    #review-button button {
+        font-size: x-large;
+        margin: auto;
+    }
+
     #book-content-right {
         display: flex;
         flex-direction: column;
         margin: 2.5% auto;
+    }
+
+    /* Review */
+    #review-content {
+        display: flex;
+        margin: auto;
+    }
+
+    #review-left {
+        width: 45%;
+    }
+
+    #review-right {
+        width: 45%;
+    }
+
+    #review-footer {
+        margin: 5% 5% 1%;
     }
 }
