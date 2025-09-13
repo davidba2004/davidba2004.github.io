@@ -52,7 +52,8 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 15%;
+    width: 20%;
+    text-align: right;
 }
 
 .nav img {
@@ -68,6 +69,7 @@ body {
     margin: auto;
     padding: 0;
     text-align: center;
+    border-radius: 10px;
 }
 
 #search-link h4 {
@@ -227,6 +229,7 @@ body {
 #summary h1 {
     text-align: center;
     margin: 0;
+    flex-direction: row-reverse;qwdewflw=ek-gr=-0gkre\=-kg
 }
 
 #book-reviews {
@@ -314,4 +317,20 @@ body {
 
 #contact-us-bottom ul li p{
     color: var(--search-link-background-color)
+}
+
+
+@media only screen and (min-width: 768px) {
+    .nav img {
+        max-width: 40px;
+    }
+
+    #search-link button {
+        width: 25%;
+        font-size: large;
+    }
+
+    #index-content {
+        display: flex;
+    }
 }
