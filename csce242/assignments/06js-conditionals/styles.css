@@ -1,0 +1,107 @@
+:root {
+    --exercise-background-color: #BF8665;
+    --text-color: #F2DB94;
+    --subheader-color: #D5D973;
+    --body-background-color: #F2F2F0;
+    --header-background-color: #8C472E;
+}
+
+body {
+    background-color: var(--body-background-color);
+}
+
+header {
+    text-align: center;
+    background-color: var(--header-background-color);
+    color: var(--text-color);
+    border-radius: 10px;
+}
+
+header h2 {
+    color: var(--subheader-color);
+}
+
+header p {
+    text-align: left;
+}
+
+header p:hover {
+    cursor: pointer;
+}
+
+header ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 8%;
+    min-width: 150px;
+    display: none;
+}
+
+header ol li {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+header ol li:hover {
+    cursor: pointer;
+}
+
+/* Exercises */
+#show-nav {
+    padding-left: 5px;
+}
+
+#exercises {
+    display: none;
+}
+
+.exercise {
+    background-color: var(--exercise-background-color);
+    color: var(--text-color);
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.exercise h3 {
+    color: var(--subheader-color);
+}
+
+#planting {
+    display: none;
+}
+
+#clock {
+    display: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+    header p {
+        display: none;
+    }
+
+    header ol {
+        display: flex;
+        margin: auto;
+    }
+
+    header ol li {
+        margin: auto;
+    }
+
+    header ol li:not(:last-child)::after {
+        content: "|";
+        padding-left: 2px;
+    }
+
+    header ol li:hover {
+        cursor: pointer;
+    }
+
+    #exercises {
+        display: flex;
+    }
+}
