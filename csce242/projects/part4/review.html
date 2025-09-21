@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Review Skeleton</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <header id="main-header">
+        <section class="nav">
+            <span id="navbar" class="hidden">
+                <a href="index.html"><img src="./images/home-icon.png" alt="home"></a>
+                <a href="profile.html"><img src="images/profile-icon.png" alt="profile"></a>
+                <a href="contact.html"><img src="images/mail-icon.png" alt="contact"></a>
+            </span>
+            <img id="menu-toggle" src="images/menu-icon.png" alt="menu">
+        </section>
+    </header>
+    <main id="review-content">
+        <section id="review-left">
+            <section class="book-large">
+                <section class="book">
+                    <img src="./images/book.png" alt="book">
+                    <h3>Book Title</h3>
+                </section>
+            </section>
+            <section id="rating">
+                <h2>Rating (1-100): </h2>
+                <input type="text" placeholder="1-100">
+            </section>
+        </section>
+        <section id="review-right">
+            <h2>Review</h2>
+            <textarea rows=20, placeholder="Write a review..."></textarea>
+        </section>
+    </main>
+    <footer id="review-footer">
+        <a href="book.html"><button id="submit-review"><b>Submit Review</b></button></a>
+    </footer>
+<script src="./js/toggle.js"></script>
+</body>
+</html>
