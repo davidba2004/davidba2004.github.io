@@ -1,0 +1,141 @@
+:root {
+    --title-color: #d92114;
+    --header-color: #f7b62a;
+    --day-sky-color: #27e8e5;
+    --night-sky-color: #202121;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: var(--title-color);
+}
+
+h2 {
+    color: var(--header-color);
+}
+
+h3 {
+    color: var(--header-color);
+}
+
+#celestial {
+    margin-left: calc(95% - 80px)
+}
+
+#clouds {
+    margin-bottom: 300px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: auto;
+}
+
+/* CSS Art By ChatGPT */
+/* 🌳 Tree */
+.tree {
+    position: relative;
+    width: 0;
+    height: 0;
+}
+.tree::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    bottom: 0;
+    width: 50px;
+    height: 100px;
+    background: sienna;
+    border-radius: 5px;
+}
+.tree::after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    bottom: 80px;
+    width: 100px;
+    height: 100px;
+    background: forestgreen;
+    border-radius: 50%;
+}
+
+/* ☁️ Cloud */
+.cloud {
+    position: relative;
+    width: 100px;
+    height: 60px;
+    background: lightgray;
+    border-radius: 50px;
+}
+.cloud::before,
+.cloud::after {
+    content: '';
+    position: absolute;
+    background: lightgray;
+    border-radius: 50%;
+}
+.cloud::before {
+    width: 60px;
+    height: 60px;
+    left: -30px;
+    top: 0;
+}
+.cloud::after {
+    width: 60px;
+    height: 60px;
+    right: -30px;
+    top: 0;
+}
+
+/* 🌙 Moon */
+.moon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.moon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    background: #f0f0f0;
+    border-radius: 50%;
+}
+
+/* ☀️ Sun */
+.sun {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: gold;
+    border-radius: 50%;
+}
+.sun::before,
+.sun::after {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    background: orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sun::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
