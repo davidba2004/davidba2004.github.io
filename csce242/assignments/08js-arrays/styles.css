@@ -27,6 +27,8 @@ span {
 #dogs {
     display: flex;
     margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .dog {
