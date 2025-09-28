@@ -309,6 +309,24 @@ h2 {
     font-size: x-large;
 }
 
+/* Contact */
+#contact-us-top img {
+    width: 100%;
+}
+
+#contact-us-bottom {
+    background-color: var(--primary-section-color);
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+#contact-us-bottom ul {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
 @media only screen and (min-width: 768px) {
     .flex-row {
         display: flex;
@@ -378,5 +396,18 @@ h2 {
     #summary p {
         margin: 0 5%;
         padding-bottom: 2%;
+    }
+
+    /* Contact */
+    #contact-us-top img {
+        width: 65%;
+    }
+
+    #contact-us-bottom {
+        width: 50%;
+    }
+
+    #contact-us-bottom ul li p {
+        font-size: large;
     }
 }
