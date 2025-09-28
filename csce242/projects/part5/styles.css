@@ -3,7 +3,8 @@
     --primary-header-color: #AF90A9;
     --secondary-header-color: #A05C7B;
     --tertiary-header-color: #944654;
-    --primary-div-color: #84732B;
+    --search-boundary-color: #414535;
+    --primary-section-color: #F1F2EE;
 }
 
 .center-text {
@@ -64,9 +65,14 @@ h2 {
 }
 
 /* Index */
-section {
-    border: 2px solid var(--secondary-header-color);
+/*section {*/
+/*    border: 2px solid var(--secondary-header-color);*/
+/*    border-radius: 10px;*/
+/*}*/
+.text-section {
+    background-color: var(--primary-section-color);
     border-radius: 10px;
+    font-size: larger;
 }
 
 .books {
@@ -116,5 +122,44 @@ section {
 }
 
 #next-genre {
-    margin-top: 5%;
+    margin: 5% auto auto;
+    width: 50%;
+}
+
+/* Search */
+#search-bar {
+    margin: 2% calc(75%/2);
+    width: 25%;
+    height: 25px;
+    align-self: center;
+    font-size: large;
+}
+
+#search-results {
+    margin-top: 3%;
+}
+
+#results-list {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    justify-content: left;
+}
+
+#results-list li {
+    padding: 0 1%;
+    margin-bottom: 2%;
+}
+
+#results-list li h2 {
+    color: var(--search-boundary-color);
+    display: inline;
+    margin-right: 5%;
+}
+
+#results-list li:not(:last-child):after {
+    content: "";
+    display: block;
+    height: 0;
+    border-bottom: 1px solid var(--search-boundary-color);
 }
