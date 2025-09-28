@@ -152,7 +152,7 @@ h2 {
 }
 
 #results-list li {
-    padding: 0 25%;
+    padding: 0 5%;
     margin-bottom: 2%;
 }
 
@@ -226,4 +226,9 @@ h2 {
     .popular-section .books .book {
         width: 15%;
     };
+
+    /* Search */
+    #results-list li {
+        padding: 0 25%;
+    }
 }
