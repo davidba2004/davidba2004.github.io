@@ -188,6 +188,50 @@ h2 {
     width: 40%;
 }
 
+/* Profile */
+#my-sway {
+    font-size: xx-large;
+}
+
+#my-reads {
+    background-color: var(--primary-section-color);
+}
+
+#my-reads .books {
+    display: flex;
+}
+
+#my-reads .books .book {
+    width: 30%;
+    margin: auto;
+}
+
+#profile-info {
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+    margin: auto;
+    width: 50%;
+}
+
+#my-reviews {
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+}
+
+.reviews {
+    list-style: none;
+    padding: 0;
+}
+
+.reviews .review {
+    display: flex;
+    margin: 2.5% 5%;
+}
+
+.reviews .review p {
+    margin: 0 2.5%;
+}
+
 @media only screen and (min-width: 768px) {
     .flex-row {
         display: flex;
@@ -230,5 +274,22 @@ h2 {
     /* Search */
     #results-list li {
         padding: 0 25%;
+    }
+
+    /* Profile */
+    #profile-left-content {
+        margin: auto 5% auto auto;
+    }
+
+    #profile-right-content {
+        margin: auto;
+    }
+
+    #my-reads .books .book {
+        width: 25%;
+    }
+
+    .reviews {
+        height: 500px;
     }
 }
