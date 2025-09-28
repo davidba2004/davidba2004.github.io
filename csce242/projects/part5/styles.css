@@ -1,0 +1,120 @@
+:root {
+    --background-color: #F5E2C8;
+    --primary-header-color: #AF90A9;
+    --secondary-header-color: #A05C7B;
+    --tertiary-header-color: #944654;
+    --primary-div-color: #84732B;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.outer-margin {
+    margin: 3% auto;
+}
+
+.inner-margin {
+    margin: auto 5%;
+}
+
+.padding {
+    padding: 0 3%;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    flex: 1;
+}
+
+.two {
+    flex: 2;
+}
+
+.three {
+    flex: 3;
+}
+
+.four {
+    flex: 4;
+}
+
+.five {
+    flex: 5;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+h1 {
+    color: var(--secondary-header-color);
+}
+
+h2 {
+    color: var(--primary-header-color);
+}
+
+/* Index */
+section {
+    border: 2px solid var(--secondary-header-color);
+    border-radius: 10px;
+}
+
+.books {
+    display: flex;
+    list-style: none;
+    gap: 5%;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.book {
+    text-align: center;
+    margin: 0;
+}
+
+.book h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.book p {
+    margin-top: 0;
+}
+
+#library-photo-gallery {
+    background-image: url("images/library-gallery/library-gallery-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Genre of the day */
+#genre-content {
+    gap: 2.5%;
+}
+
+#books-in-genre .books {
+    gap: 2%;
+}
+
+#genre-photo-carousel {
+    background-image: url("./images/genre-gallery/genre-mystery-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#next-genre {
+    margin-top: 5%;
+}
