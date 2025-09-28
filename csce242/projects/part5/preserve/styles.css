@@ -64,71 +64,45 @@ h2 {
     color: var(--primary-header-color);
 }
 
+/* Index */
+/*section {*/
+/*    border: 2px solid var(--secondary-header-color);*/
+/*    border-radius: 10px;*/
+/*}*/
 .text-section {
     background-color: var(--primary-section-color);
     border-radius: 10px;
     font-size: larger;
 }
 
-/* Nav */
-#nav {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-#nav li {
-    margin: auto;
-    background-color: var(--primary-section-color);
-    border-radius: 10px;
-    width: 15%;
-    height: 35px;
-    text-align: center;
-}
-
-#nav li a {
-    text-decoration: none;
-}
-
-#nav li p {
-    color: var(--tertiary-header-color);
-    padding: 0;
-    margin: 5% auto auto;
-}
-
-/* Common books */
 .books {
-    list-style: none;
-    padding: 0;
-    margin: auto;
     display: flex;
+    list-style: none;
+    gap: 5%;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
 }
 
 .book {
-    margin: auto;
     text-align: center;
+    margin: 0;
 }
 
 .book h4 {
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
-.book img {
-    max-width: 100%;
-    width: 100%;
+.book p {
+    margin-top: 0;
 }
 
-/* Index */
 #library-photo-gallery {
     background-image: url("images/library-gallery/library-gallery-1.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-#featured-books .books .book {
-    width: 25%;
 }
 
 /* Genre of the day */
