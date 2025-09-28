@@ -23,35 +23,6 @@
     padding: 0 3%;
 }
 
-.flex-row {
-    display: flex;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.one {
-    flex: 1;
-}
-
-.two {
-    flex: 2;
-}
-
-.three {
-    flex: 3;
-}
-
-.four {
-    flex: 4;
-}
-
-.five {
-    flex: 5;
-}
-
 body {
     background-color: var(--background-color);
 }
@@ -101,7 +72,6 @@ h2 {
     list-style: none;
     padding: 0;
     margin: auto;
-    display: flex;
     flex-wrap: wrap;
 }
 
@@ -126,6 +96,10 @@ h2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#featured-books .books {
+    display: flex;
 }
 
 #featured-books .books .book {
@@ -206,8 +180,49 @@ h2 {
 
 .popular-section .books {
     gap: 5%;
+    display: flex;
 }
 
 .popular-section .books .book {
-    width: 15%;
+    width: 40%;
+}
+
+@media only screen and (min-width: 768px) {
+    .flex-row {
+        display: flex;
+    }
+
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one {
+        flex: 1;
+    }
+
+    .two {
+        flex: 2;
+    }
+
+    .three {
+        flex: 3;
+    }
+
+    .four {
+        flex: 4;
+    }
+
+    .five {
+        flex: 5;
+    }
+
+    /* Popular */
+    .popular-section .books {
+        gap: 5%;
+    }
+
+    .popular-section .books .book {
+        width: 15%;
+    }
 }
