@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Review</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <header id="main-header">
+        <h1 class="center-text">Review</h1>
+        <div>
+            <ul id="nav">
+                <li><a href="index.html">
+                    <p>Home</p>
+                </a></li>
+                <li><a href="popular.html">
+                    <p>Popular</p>
+                </a></li>
+                <li><a href="genre.html">
+                    <p>Genre of the Day</p>
+                </a></li>
+                <li><a href="search.html">
+                    <p>Search</p>
+                </a></li>
+                <li><a href="profile.html">
+                    <p>Profile</p>
+                </a></li>
+            </ul>
+        </div>
+    </header>
+    <main id="review-content" class="flex-row">
+        <section id="review-left" class="one">
+            <section class="book-large">
+                <section class="book">
+                    <h3>Book Title</h3>
+                    <h4>Author</h4>
+                    <img src="./images/book.png" alt="book">
+                </section>
+            </section>
+        </section>
+        <section id="review-right" class="two">
+            <section id="rating" class="center-text">
+                <h2>Rating (1-100): </h2>
+                <input type="text" placeholder="1-100">
+            </section>
+            <textarea rows=20, placeholder="Write a review..."></textarea>
+            <a href="book.html"><button id="submit-review"><b>Submit Review</b></button></a>
+        </section>
+    </main>
+<script src="./js/toggle.js"></script>
+</body>
+</html>
