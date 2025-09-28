@@ -163,3 +163,8 @@ h2 {
     height: 0;
     border-bottom: 1px solid var(--search-boundary-color);
 }
+
+/* Popular */
+.popular-section {
+    background-color: var(--primary-section-color)
+}
