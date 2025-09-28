@@ -6,26 +6,36 @@
 </head>
 <body>
     <header>
-        <header id="main-header">
-            <section class="nav">
-                <span id="navbar" class="hidden">
-                    <a href="index.html"><img src="./images/home-icon.png" alt="home"></a>
-                    <a href="profile.html"><img src="images/profile-icon.png" alt="profile"></a>
-                    <a href="contact.html"><img src="images/mail-icon.png" alt="contact"></a>
-                </span>
-                <img id="menu-toggle" src="images/menu-icon.png" alt="menu">
-            </section>
-        </header>
+        <h1 class="center-text">Book Title</h1>
+        <div>
+            <ul id="nav">
+                <li><a href="index.html">
+                    <p>Home</p>
+                </a></li>
+                <li><a href="popular.html">
+                    <p>Popular</p>
+                </a></li>
+                <li><a href="genre.html">
+                    <p>Genre of the Day</p>
+                </a></li>
+                <li><a href="search.html">
+                    <p>Search</p>
+                </a></li>
+                <li><a href="profile.html">
+                    <p>Profile</p>
+                </a></li>
+            </ul>
+        </div>
     </header>
-    <main id="book-content">
+    <main id="book-content" class="flex-row">
         <div id="book-content-left">
-            <section class="book-large">
+            <div>
                 <section class="book">
                     <h3>Book Title</h3>
                     <h4>John Doe</h4>
                     <img src="./images/book.png" alt="book">
                 </section>
-            </section>
+            </div>
             <section id="review-button">
                 <a href="./review.html"><button>Review</button></a>
             </section>
@@ -49,11 +59,11 @@
         </div>
         <div id="book-content-right">
             <section id="summary">
-                <h1>Summary</h1>
+                <h1 class="center-text">Summary</h1>
                 <p>Maecenas eros lacus, fermentum nec magna euismod, hendrerit egestas elit. Aenean interdum vel sapien at sagittis. Nunc rutrum hendrerit eros ac congue. Cras tincidunt sollicitudin mi ut egestas. Nullam consectetur pretium tristique. Vestibulum elementum vulputate leo, ut sodales nisi pharetra ornare. Ut vel porttitor mauris.</p>
             </section>
             <section id="book-reviews">
-                <h2>Reviews</h2>
+                <h2 class="center-text">Reviews</h2>
                 <ol class="reviews">
                     <li class="review">
                         <p>58%</p>
@@ -79,9 +89,5 @@
             </section>
         </div>
     </main>
-    <footer>
-
-    </footer>
-<script src="./js/toggle.js"></script>
 </body>
 </html>

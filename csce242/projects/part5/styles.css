@@ -232,6 +232,48 @@ h2 {
     margin: 0 2.5%;
 }
 
+/* Book */
+#book-content-left .book img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#book-content-left .book h3 {
+    font-size: xxx-large;
+    margin-bottom: 0;
+}
+
+#book-content-left .book h4 {
+    margin-top: 0;
+    font-size: xx-large;
+}
+
+#review-button {
+    text-align: center;
+}
+
+#review-button button {
+    width: 30%;
+    font-size: large;
+    margin: auto;
+}
+
+
+#stars {
+    display: flex;
+    justify-content: center;
+}
+
+#summary {
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+}
+
+#book-reviews {
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+}
+
 @media only screen and (min-width: 768px) {
     .flex-row {
         display: flex;
@@ -291,5 +333,15 @@ h2 {
 
     .reviews {
         height: 500px;
+    }
+
+    /* Book */
+    #summary {
+        margin-bottom: 5%;
+    }
+
+    #summary p {
+        margin: 0 5%;
+        padding-bottom: 2%;
     }
 }
