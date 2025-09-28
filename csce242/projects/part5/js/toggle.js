@@ -1,3 +1,3 @@
 document.getElementById("menu-toggle").onclick = () => {
-    document.getElementById("navbar").classList.toggle("hidden");
+    document.getElementById("nav-container").classList.toggle("hidden");
 }

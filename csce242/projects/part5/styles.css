@@ -7,6 +7,10 @@
     --primary-section-color: #F1F2EE;
 }
 
+.hidden {
+    display: none;
+}
+
 .center-text {
     text-align: center;
 }
@@ -42,6 +46,18 @@ h2 {
 }
 
 /* Nav */
+#menu-toggle {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+}
+
+#menu-toggle:hover {
+    cursor: pointer;
+}
+
 #nav {
     list-style: none;
     padding: 0;
