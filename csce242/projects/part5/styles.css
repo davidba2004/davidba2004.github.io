@@ -139,6 +139,9 @@ h2 {
 
 #books-in-genre .books {
     gap: 2%;
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+    border: 2px solid var(--search-boundary-color);
 }
 
 #genre-photo-carousel {
