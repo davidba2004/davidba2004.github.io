@@ -64,7 +64,7 @@ h2 {
 #nav li p {
     color: var(--tertiary-header-color);
     padding: 0;
-    margin: 5% auto auto;
+    margin: 1% auto auto;
 }
 
 /* Common books */
@@ -116,6 +116,7 @@ h2 {
     background-color: var(--primary-section-color);
     border-radius: 10px;
     border: 2px solid var(--search-boundary-color);
+    display: flex;
 }
 
 #genre-photo-carousel {
@@ -224,5 +225,5 @@ h2 {
 
     .popular-section .books .book {
         width: 15%;
-    }
+    };
 }
