@@ -102,6 +102,7 @@ h2 {
     padding: 0;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -115,8 +116,8 @@ h2 {
 }
 
 .book img {
-    max-width: 100%;
-    width: 100%;
+    max-width: 75%;
+    width: 75%;
 }
 
 /* Index */
@@ -193,4 +194,17 @@ h2 {
 /* Popular */
 .popular-section {
     background-color: var(--primary-section-color)
+}
+
+.popular-section h2 {
+    font-size: xx-large;
+    padding: 0 1%;
+}
+
+.popular-section .books {
+    gap: 5%;
+}
+
+.popular-section .books .book {
+    width: 15%;
 }
