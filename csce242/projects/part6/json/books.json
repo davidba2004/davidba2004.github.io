@@ -1,0 +1,362 @@
+[
+  {
+    "_id": 1,
+    "title": "Shadows in the Fog",
+    "author": "Lena Carter",
+    "cover": "cover1.png",
+    "rating": 89,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "reader101",
+        "text": "Gripping from start to finish!"
+      },
+      {
+        "username": "noirFan",
+        "text": "Loved the atmosphere."
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "title": "The Clockmaker's Secret",
+    "author": "Tom Halberd",
+    "cover": "cover2.png",
+    "rating": 77,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "jane_doe",
+        "text": "Clever twists and great pacing."
+      },
+      {
+        "username": "bookishgal",
+        "text": "Slow in the middle but worth it."
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "title": "Whispers at Midnight",
+    "author": "Riley Monroe",
+    "cover": "cover3.png",
+    "rating": 82,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "thrillseeker",
+        "text": "Kept me up all night."
+      },
+      {
+        "username": "mysteryBuff22",
+        "text": "Not predictable at all!"
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "title": "Echoes in the Hall",
+    "author": "Sarah North",
+    "cover": "cover4.png",
+    "rating": 91,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "ghosthunter",
+        "text": "Spooky and smart!"
+      },
+      {
+        "username": "chapterqueen",
+        "text": "Loved every page."
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "title": "Beneath the Floorboards",
+    "author": "Evan Teller",
+    "cover": "cover5.png",
+    "rating": 76,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "creepycat",
+        "text": "Creeped me out."
+      },
+      {
+        "username": "notafan",
+        "text": "Expected more suspense."
+      }
+    ]
+  },
+  {
+    "_id": 6,
+    "title": "The Ninth Key",
+    "author": "Maria Gold",
+    "cover": "cover6.png",
+    "rating": 88,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "keycollector",
+        "text": "Such an original concept."
+      },
+      {
+        "username": "bookworm4life",
+        "text": "Didn't see the ending coming!"
+      }
+    ]
+  },
+  {
+    "_id": 7,
+    "title": "Dead Letter Office",
+    "author": "Peter Lang",
+    "cover": "cover7.png",
+    "rating": 83,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "postalnerd",
+        "text": "Clever use of the setting."
+      },
+      {
+        "username": "mysticmail",
+        "text": "Letters held dark secrets!"
+      }
+    ]
+  },
+  {
+    "_id": 8,
+    "title": "The Forgotten Code",
+    "author": "Leah Dixon",
+    "cover": "cover8.png",
+    "rating": 80,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "techdetective",
+        "text": "Intriguing plot!"
+      },
+      {
+        "username": "coderKid",
+        "text": "Felt like a cyber-thriller."
+      }
+    ]
+  },
+  {
+    "_id": 9,
+    "title": "Murder on Elm Street",
+    "author": "Jackson Price",
+    "cover": "cover9.png",
+    "rating": 79,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "truecrimefan",
+        "text": "Classic murder mystery."
+      },
+      {
+        "username": "nightreader",
+        "text": "Loved the build-up."
+      }
+    ]
+  },
+  {
+    "_id": 10,
+    "title": "Voices in the Library",
+    "author": "Carmen Yi",
+    "cover": "cover10.png",
+    "rating": 86,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "silentpages",
+        "text": "Best library mystery yet!"
+      },
+      {
+        "username": "dustybooks",
+        "text": "Dark and clever."
+      }
+    ]
+  },
+  {
+    "_id": 11,
+    "title": "The Locked Room",
+    "author": "Omar Grant",
+    "cover": "cover11.png",
+    "rating": 92,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "escapee",
+        "text": "Masterclass in tension."
+      },
+      {
+        "username": "roomrat",
+        "text": "Totally unpredictable."
+      }
+    ]
+  },
+  {
+    "_id": 12,
+    "title": "Under the Ivy",
+    "author": "Natalie Brooks",
+    "cover": "cover12.png",
+    "rating": 74,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "gardenreader",
+        "text": "Weirdly charming and mysterious."
+      },
+      {
+        "username": "ivyfan",
+        "text": "Loved the setting."
+      }
+    ]
+  },
+  {
+    "_id": 13,
+    "title": "The Silent Bell",
+    "author": "Aaron West",
+    "cover": "cover13.png",
+    "rating": 84,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "ringmybell",
+        "text": "Creepy and symbolic."
+      },
+      {
+        "username": "quietreader",
+        "text": "Felt very literary."
+      }
+    ]
+  },
+  {
+    "_id": 14,
+    "title": "Crimson Alley",
+    "author": "Julia Price",
+    "cover": "cover14.png",
+    "rating": 81,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "urbanmystery",
+        "text": "Good city vibes and plot."
+      },
+      {
+        "username": "streetdetective",
+        "text": "Loved the pacing."
+      }
+    ]
+  },
+  {
+    "_id": 15,
+    "title": "The Pale Mask",
+    "author": "Harrison Lowe",
+    "cover": "cover15.png",
+    "rating": 87,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "maskedfan",
+        "text": "Intense psychological ride."
+      },
+      {
+        "username": "faceoff",
+        "text": "Creeped me out in the best way."
+      }
+    ]
+  },
+  {
+    "_id": 16,
+    "title": "The Lighthouse Keeper",
+    "author": "Megan Rose",
+    "cover": "cover16.png",
+    "rating": 90,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "coastalread",
+        "text": "Beautifully written and eerie."
+      },
+      {
+        "username": "stormwatcher",
+        "text": "Mysterious and emotional."
+      }
+    ]
+  },
+  {
+    "_id": 17,
+    "title": "Ashes of Truth",
+    "author": "Dev Patel",
+    "cover": "cover17.png",
+    "rating": 78,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "truthseeker",
+        "text": "Heavy but rewarding."
+      },
+      {
+        "username": "ashreader",
+        "text": "Bit too dark for me."
+      }
+    ]
+  },
+  {
+    "_id": 18,
+    "title": "Midnight Ledger",
+    "author": "Fiona Clarke",
+    "cover": "cover18.png",
+    "rating": 85,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "accountant123",
+        "text": "Loved the financial twist."
+      },
+      {
+        "username": "nightowl",
+        "text": "Very underrated."
+      }
+    ]
+  },
+  {
+    "_id": 19,
+    "title": "Cold Case Cathedral",
+    "author": "Grant Simmons",
+    "cover": "cover19.png",
+    "rating": 80,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "investig8",
+        "text": "Intricate and clever."
+      },
+      {
+        "username": "historyhunter",
+        "text": "Loved the historical layers."
+      }
+    ]
+  },
+  {
+    "_id": 20,
+    "title": "The Vanishing Trail",
+    "author": "Dana Wu",
+    "cover": "cover20.png",
+    "rating": 88,
+    "genre": "Mystery",
+    "reviews": [
+      {
+        "username": "trailtracker",
+        "text": "Edge-of-your-seat stuff."
+      },
+      {
+        "username": "lostandfound",
+        "text": "Fascinating characters."
+      }
+    ]
+  }
+]
