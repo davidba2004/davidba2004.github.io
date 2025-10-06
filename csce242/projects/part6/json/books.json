@@ -1,361 +1,361 @@
 [
   {
     "_id": 1,
-    "title": "Shadows in the Fog",
-    "author": "Lena Carter",
-    "cover": "cover1.png",
-    "rating": 89,
+    "title": "And Then There Were None",
+    "author": "Agatha Christie",
+    "cover": "and_then_there_were_none.png",
+    "rating": 95,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "reader101",
-        "text": "Gripping from start to finish!"
+        "username": "mysterylover",
+        "text": "A masterpiece of suspense."
       },
       {
-        "username": "noirFan",
-        "text": "Loved the atmosphere."
+        "username": "bookworm92",
+        "text": "I couldn’t put it down."
       }
     ]
   },
   {
     "_id": 2,
-    "title": "The Clockmaker's Secret",
-    "author": "Tom Halberd",
-    "cover": "cover2.png",
-    "rating": 77,
+    "title": "Murder on the Orient Express",
+    "author": "Agatha Christie",
+    "cover": "murder_on_orient_express.png",
+    "rating": 92,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "jane_doe",
-        "text": "Clever twists and great pacing."
+        "username": "trainfan",
+        "text": "Such a clever plot!"
       },
       {
-        "username": "bookishgal",
-        "text": "Slow in the middle but worth it."
+        "username": "whodunit123",
+        "text": "Brilliant ending."
       }
     ]
   },
   {
     "_id": 3,
-    "title": "Whispers at Midnight",
-    "author": "Riley Monroe",
-    "cover": "cover3.png",
-    "rating": 82,
+    "title": "The Murder of Roger Ackroyd",
+    "author": "Agatha Christie",
+    "cover": "murder_of_roger_ackroyd.png",
+    "rating": 90,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "thrillseeker",
-        "text": "Kept me up all night."
+        "username": "classicreader",
+        "text": "One of Christie’s best."
       },
       {
-        "username": "mysteryBuff22",
-        "text": "Not predictable at all!"
+        "username": "plotseeker",
+        "text": "Shocking twist!"
       }
     ]
   },
   {
     "_id": 4,
-    "title": "Echoes in the Hall",
-    "author": "Sarah North",
-    "cover": "cover4.png",
-    "rating": 91,
+    "title": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "cover": "hound_of_baskervilles.png",
+    "rating": 88,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "ghosthunter",
-        "text": "Spooky and smart!"
+        "username": "sherlockfan",
+        "text": "Atmospheric & chilling."
       },
       {
-        "username": "chapterqueen",
-        "text": "Loved every page."
+        "username": "oldbooklover",
+        "text": "Classic Holmes at its best."
       }
     ]
   },
   {
     "_id": 5,
-    "title": "Beneath the Floorboards",
-    "author": "Evan Teller",
-    "cover": "cover5.png",
-    "rating": 76,
+    "title": "The Moonstone",
+    "author": "Wilkie Collins",
+    "cover": "moonstone.png",
+    "rating": 85,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "creepycat",
-        "text": "Creeped me out."
+        "username": "historicalfan",
+        "text": "Pioneering detective novel."
       },
       {
-        "username": "notafan",
-        "text": "Expected more suspense."
+        "username": "literarygeek",
+        "text": "Intricate and compelling."
       }
     ]
   },
   {
     "_id": 6,
-    "title": "The Ninth Key",
-    "author": "Maria Gold",
-    "cover": "cover6.png",
-    "rating": 88,
+    "title": "The Leavenworth Case",
+    "author": "Anna Katharine Green",
+    "cover": "leavenworth_case.png",
+    "rating": 82,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "keycollector",
-        "text": "Such an original concept."
+        "username": "earlycrime",
+        "text": "A foundational detective story."
       },
       {
-        "username": "bookworm4life",
-        "text": "Didn't see the ending coming!"
+        "username": "vintagereader",
+        "text": "Charming old‑style mystery."
       }
     ]
   },
   {
     "_id": 7,
-    "title": "Dead Letter Office",
-    "author": "Peter Lang",
-    "cover": "cover7.png",
-    "rating": 83,
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "cover": "gone_girl.png",
+    "rating": 89,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "postalnerd",
-        "text": "Clever use of the setting."
+        "username": "thrillseeker",
+        "text": "Dark and twisty."
       },
       {
-        "username": "mysticmail",
-        "text": "Letters held dark secrets!"
+        "username": "unreliableNarrator",
+        "text": "Kept me guessing."
       }
     ]
   },
   {
     "_id": 8,
-    "title": "The Forgotten Code",
-    "author": "Leah Dixon",
-    "cover": "cover8.png",
-    "rating": 80,
+    "title": "The Maltese Falcon",
+    "author": "Dashiell Hammett",
+    "cover": "maltese_falcon.png",
+    "rating": 87,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "techdetective",
-        "text": "Intriguing plot!"
+        "username": "noirnerd",
+        "text": "Tough, gritty, perfect."
       },
       {
-        "username": "coderKid",
-        "text": "Felt like a cyber-thriller."
+        "username": "detectiveFan",
+        "text": "Classic hardboiled."
       }
     ]
   },
   {
     "_id": 9,
-    "title": "Murder on Elm Street",
-    "author": "Jackson Price",
-    "cover": "cover9.png",
-    "rating": 79,
+    "title": "The Postman Always Rings Twice",
+    "author": "James M. Cain",
+    "cover": "postman_always_rings_twice.png",
+    "rating": 84,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "truecrimefan",
-        "text": "Classic murder mystery."
+        "username": "darkreads",
+        "text": "Fascinating and intense."
       },
       {
-        "username": "nightreader",
-        "text": "Loved the build-up."
+        "username": "classiccrime",
+        "text": "Powerful noir narrative."
       }
     ]
   },
   {
     "_id": 10,
-    "title": "Voices in the Library",
-    "author": "Carmen Yi",
-    "cover": "cover10.png",
-    "rating": 86,
+    "title": "The Secret History",
+    "author": "Donna Tartt",
+    "cover": "secret_history.png",
+    "rating": 90,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "silentpages",
-        "text": "Best library mystery yet!"
+        "username": "campusreader",
+        "text": "Dark and mesmerizing."
       },
       {
-        "username": "dustybooks",
-        "text": "Dark and clever."
+        "username": "tarttfan",
+        "text": "Beautiful prose + tension."
       }
     ]
   },
   {
     "_id": 11,
-    "title": "The Locked Room",
-    "author": "Omar Grant",
-    "cover": "cover11.png",
-    "rating": 92,
+    "title": "Rebecca",
+    "author": "Daphne du Maurier",
+    "cover": "rebecca.png",
+    "rating": 91,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "escapee",
-        "text": "Masterclass in tension."
+        "username": "gothiclover",
+        "text": "Haunting and suspenseful."
       },
       {
-        "username": "roomrat",
-        "text": "Totally unpredictable."
+        "username": "mysteryenthusiast",
+        "text": "Atmospheric and gripping."
       }
     ]
   },
   {
     "_id": 12,
-    "title": "Under the Ivy",
-    "author": "Natalie Brooks",
-    "cover": "cover12.png",
-    "rating": 74,
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "cover": "girl_with_dragon_tattoo.png",
+    "rating": 88,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "gardenreader",
-        "text": "Weirdly charming and mysterious."
+        "username": "thrilleraddict",
+        "text": "Complex & gripping."
       },
       {
-        "username": "ivyfan",
-        "text": "Loved the setting."
+        "username": "techmystery",
+        "text": "Love the hacker angle."
       }
     ]
   },
   {
     "_id": 13,
-    "title": "The Silent Bell",
-    "author": "Aaron West",
-    "cover": "cover13.png",
-    "rating": 84,
+    "title": "Big Little Lies",
+    "author": "Liane Moriarty",
+    "cover": "big_little_lies.png",
+    "rating": 86,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "ringmybell",
-        "text": "Creepy and symbolic."
+        "username": "beachread",
+        "text": "So many secrets!"
       },
       {
-        "username": "quietreader",
-        "text": "Felt very literary."
+        "username": "plotlover",
+        "text": "Unexpected turns."
       }
     ]
   },
   {
     "_id": 14,
-    "title": "Crimson Alley",
-    "author": "Julia Price",
-    "cover": "cover14.png",
-    "rating": 81,
+    "title": "In the Woods",
+    "author": "Tana French",
+    "cover": "in_the_woods.png",
+    "rating": 89,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "urbanmystery",
-        "text": "Good city vibes and plot."
+        "username": "irishmystery",
+        "text": "Rich, haunting, deep."
       },
       {
-        "username": "streetdetective",
-        "text": "Loved the pacing."
+        "username": "psychreader",
+        "text": "Mystery + character study."
       }
     ]
   },
   {
     "_id": 15,
-    "title": "The Pale Mask",
-    "author": "Harrison Lowe",
-    "cover": "cover15.png",
-    "rating": 87,
+    "title": "The Woman in White",
+    "author": "Wilkie Collins",
+    "cover": "woman_in_white.png",
+    "rating": 83,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "maskedfan",
-        "text": "Intense psychological ride."
+        "username": "gothicclassic",
+        "text": "Early suspense gem."
       },
       {
-        "username": "faceoff",
-        "text": "Creeped me out in the best way."
+        "username": "VictorianFan",
+        "text": "Layers of intrigue."
       }
     ]
   },
   {
     "_id": 16,
-    "title": "The Lighthouse Keeper",
-    "author": "Megan Rose",
-    "cover": "cover16.png",
+    "title": "Death on the Nile",
+    "author": "Agatha Christie",
+    "cover": "death_on_the_nile.png",
     "rating": 90,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "coastalread",
-        "text": "Beautifully written and eerie."
+        "username": "egyptlover",
+        "text": "Exotic and cunning plot."
       },
       {
-        "username": "stormwatcher",
-        "text": "Mysterious and emotional."
+        "username": "whodunitpro",
+        "text": "Poirot at his best."
       }
     ]
   },
   {
     "_id": 17,
-    "title": "Ashes of Truth",
-    "author": "Dev Patel",
-    "cover": "cover17.png",
-    "rating": 78,
+    "title": "Strong Poison",
+    "author": "Dorothy L. Sayers",
+    "cover": "strong_poison.png",
+    "rating": 85,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "truthseeker",
-        "text": "Heavy but rewarding."
+        "username": "SayersFan",
+        "text": "Dorothy’s wit shines."
       },
       {
-        "username": "ashreader",
-        "text": "Bit too dark for me."
+        "username": "mysteryclassic",
+        "text": "Legal intrigue + murder."
       }
     ]
   },
   {
     "_id": 18,
-    "title": "Midnight Ledger",
-    "author": "Fiona Clarke",
-    "cover": "cover18.png",
-    "rating": 85,
+    "title": "The Talented Mr. Ripley",
+    "author": "Patricia Highsmith",
+    "cover": "talented_mr_ripley.png",
+    "rating": 88,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "accountant123",
-        "text": "Loved the financial twist."
+        "username": "psychthriller",
+        "text": "Dark, twisted, thrilling."
       },
       {
-        "username": "nightowl",
-        "text": "Very underrated."
+        "username": "identityjunkie",
+        "text": "Terrific character work."
       }
     ]
   },
   {
     "_id": 19,
-    "title": "Cold Case Cathedral",
-    "author": "Grant Simmons",
-    "cover": "cover19.png",
-    "rating": 80,
+    "title": "The Big Sleep",
+    "author": "Raymond Chandler",
+    "cover": "big_sleep.png",
+    "rating": 87,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "investig8",
-        "text": "Intricate and clever."
+        "username": "HolmesVsMarlowe",
+        "text": "Hardboiled at its finest."
       },
       {
-        "username": "historyhunter",
-        "text": "Loved the historical layers."
+        "username": "noirlover",
+        "text": "Atmosphere + intrigue."
       }
     ]
   },
   {
     "_id": 20,
-    "title": "The Vanishing Trail",
-    "author": "Dana Wu",
-    "cover": "cover20.png",
-    "rating": 88,
+    "title": "The Girl on the Train",
+    "author": "Paula Hawkins",
+    "cover": "girl_on_train.png",
+    "rating": 84,
     "genre": "Mystery",
     "reviews": [
       {
-        "username": "trailtracker",
-        "text": "Edge-of-your-seat stuff."
+        "username": "suspenseAddict",
+        "text": "Unreliable narrators rock."
       },
       {
-        "username": "lostandfound",
-        "text": "Fascinating characters."
+        "username": "modernmystery",
+        "text": "Twisty and suspenseful."
       }
     ]
   }
