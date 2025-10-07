@@ -165,6 +165,15 @@ h2 {
 }
 
 /* Genre of the day */
+#genre-description {
+    margin: auto;
+    width: 85%;
+}
+
+#genre-description p {
+    padding: 2.5%;
+}
+
 #genre-content {
     gap: 2.5%;
 }
@@ -482,6 +491,10 @@ h2 {
     .book img {
         max-width: 75%;
         width: 75%;
+    }
+
+    #genre-description p {
+        padding: 1.5%;
     }
 
     #books-in-genre .books .book {

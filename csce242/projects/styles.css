@@ -77,15 +77,15 @@ a {
 @media only screen and (min-width: 768px) {
     #main-content ol {
         display: flex;
-        flex:1;
+        flex-wrap: wrap;
         gap: 1%;
         align-items: center;
     }
 
     .project {
         display: flex;
-        flex: 1;
         flex-direction: column;
+        width: 30%;
     }
 
     .project img {
