@@ -62,25 +62,33 @@ h2 {
     list-style: none;
     padding: 0;
     display: flex;
+    flex-direction: column;
 }
 
 #nav li {
     margin: auto;
     background-color: var(--primary-section-color);
     border-radius: 10px;
-    width: 15%;
+    width: 80%;
     height: 35px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--primary-header-color);
+    margin-bottom: 5px;
 }
 
 #nav li a {
     text-decoration: none;
+    display: block;
 }
 
 #nav li p {
     color: var(--tertiary-header-color);
     padding: 0;
-    margin: 1% auto auto;
+    margin: 0;
+    font-size: 1rem;
 }
 
 /* Common books */
@@ -442,6 +450,26 @@ h2 {
 
     .five {
         flex: 5;
+    }
+
+    #nav-container {
+        display: block !important;
+    }
+
+    #nav {
+        flex-direction: row;
+    }
+
+    #nav li {
+        width: 15%;
+    }
+
+    #nav li p {
+        font-size: 1rem;
+    }
+
+    #menu-toggle {
+        display: none;
     }
 
     .book h4 {
