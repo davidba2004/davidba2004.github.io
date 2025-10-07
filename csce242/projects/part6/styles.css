@@ -92,8 +92,8 @@ h2 {
 }
 
 .book {
-    margin: auto;
     text-align: center;
+    margin: auto auto 1.5%;
 }
 
 .book a {
@@ -103,16 +103,15 @@ h2 {
 
 .book h4 {
     margin: 0.25rem 0;
-    font-size: 1rem;
-    line-height: 1.2;
-    height: 2.4em; /* Adjust to fit up to 2 lines */
+    font-size: 0.6rem;
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .book img {
-    max-width: 75%;
-    width: 75%;
+    max-width: 100%;
+    width: 100%;
 }
 
 /* Index */
@@ -123,12 +122,33 @@ h2 {
     background-repeat: no-repeat;
 }
 
+#about h2 {
+    padding: 2.5%;
+}
+
+#about p {
+    padding: 0 3% 3%;
+}
+
 #featured-books .books {
     display: flex;
 }
 
 #featured-books .books .book {
-    width: 25%;
+    width: 22.5%;
+    margin: auto;
+}
+
+#featured-books .books .book h4 {
+    font-size: 0.75rem;
+}
+
+#get-started h2 {
+    padding: 2.5%;
+}
+
+#get-started p {
+    padding: 0 3% 3%;
 }
 
 #get-started a {
@@ -142,7 +162,6 @@ h2 {
 }
 
 #books-in-genre .books {
-    gap: 2%;
     background-color: var(--primary-section-color);
     border-radius: 10px;
     border: 2px solid var(--search-boundary-color);
@@ -151,12 +170,10 @@ h2 {
 
 #books-in-genre .books .book {
     width: 16%;
-    padding: 1rem;
-    border: 1px solid #ddd;
+    padding: 1%;
     border-radius: 4px;
     text-align: center;
     box-sizing: border-box;
-    background-color: #fdfdfd;
 }
 
 #books-in-genre .books .book:hover {
@@ -248,13 +265,16 @@ h2 {
     background-color: var(--primary-section-color);
 }
 
+#my-reads h2 {
+    padding: 1.5%;
+}
+
 #my-reads .books {
     display: flex;
 }
 
-#my-reads .books .book {
-    width: 30%;
-    margin: auto;
+#my-reads .books .book h4 {
+    font-size: 0.65rem;
 }
 
 #profile-info {
@@ -264,9 +284,17 @@ h2 {
     width: 50%;
 }
 
+#profile-info h2 {
+    padding: 1.5%;
+}
+
 #my-reviews {
     background-color: var(--primary-section-color);
     border-radius: 10px;
+}
+
+#my-reviews h1 {
+    padding-top: 1.5%;
 }
 
 .reviews {
@@ -313,6 +341,14 @@ h2 {
 #summary {
     background-color: var(--primary-section-color);
     border-radius: 10px;
+}
+
+#summary h1 {
+    padding: 1.55%;
+}
+
+#book-reviews h2 {
+    padding: 1.5%;
 }
 
 #book-reviews {
@@ -408,7 +444,35 @@ h2 {
         flex: 5;
     }
 
+    .book h4 {
+        font-size: 1rem;
+        line-height: 1.2;
+        height: 2.4em; /* Adjust to fit up to 2 lines */
+        white-space: wrap;
+    }
+
+    .book img {
+        max-width: 75%;
+        width: 75%;
+    }
+
+    #books-in-genre .books .book {
+        width: 19%;
+        padding: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #featured-books .books .book h4 {
+        font-size: 1rem;
+    }
+
+
     /* Popular */
+    .popular-section h2 {
+        padding: 1%;
+    }
+
     .popular-section .books {
         gap: 5%;
     }
@@ -416,8 +480,6 @@ h2 {
     .popular-section .books .book {
         width: 15%;
     }
-
-;
 
     /* Search */
     #results-list li {
@@ -434,7 +496,12 @@ h2 {
     }
 
     #my-reads .books .book {
-        width: 25%;
+        width: 22%;
+        margin: auto auto 5%;
+    }
+
+    #my-reads .books .book h4 {
+        font-size: 0.75rem;
     }
 
     .reviews {

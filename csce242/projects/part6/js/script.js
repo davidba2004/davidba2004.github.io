@@ -86,4 +86,3 @@ makeBookList(10, "recently-released");
 makeBookList(10, "all-time");
 makeBookList(12, "my-reads");
 makeBookList(4, "featured-books");
-
