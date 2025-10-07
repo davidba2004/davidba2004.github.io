@@ -1,0 +1,466 @@
+:root {
+    --background-color: #F5E2C8;
+    --primary-header-color: #AF90A9;
+    --secondary-header-color: #A05C7B;
+    --tertiary-header-color: #944654;
+    --search-boundary-color: #414535;
+    --primary-section-color: #F1F2EE;
+}
+
+.hidden {
+    display: none;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.outer-margin {
+    margin: 3% auto;
+}
+
+.inner-margin {
+    margin: auto 5%;
+}
+
+.padding {
+    padding: 0 3%;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+h1 {
+    color: var(--secondary-header-color);
+}
+
+h2 {
+    color: var(--primary-header-color);
+}
+
+.text-section {
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+    font-size: larger;
+}
+
+/* Nav */
+#menu-toggle {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+}
+
+#menu-toggle:hover {
+    cursor: pointer;
+}
+
+#nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#nav li {
+    margin: auto;
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+    width: 15%;
+    height: 35px;
+    text-align: center;
+}
+
+#nav li a {
+    text-decoration: none;
+}
+
+#nav li p {
+    color: var(--tertiary-header-color);
+    padding: 0;
+    margin: 1% auto auto;
+}
+
+/* Common books */
+.books {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.book {
+    margin: auto;
+    text-align: center;
+}
+
+.book a {
+    text-decoration: none;
+    color: black;
+}
+
+.book h4 {
+    margin: 0.25rem 0;
+    font-size: 1rem;
+    line-height: 1.2;
+    height: 2.4em; /* Adjust to fit up to 2 lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.book img {
+    max-width: 75%;
+    width: 75%;
+}
+
+/* Index */
+#library-photo-gallery {
+    background-image: url("images/library-gallery/library-gallery-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#featured-books .books {
+    display: flex;
+}
+
+#featured-books .books .book {
+    width: 25%;
+}
+
+#get-started a {
+    text-decoration: none;
+    color: var(--secondary-header-color);
+}
+
+/* Genre of the day */
+#genre-content {
+    gap: 2.5%;
+}
+
+#books-in-genre .books {
+    gap: 2%;
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+    border: 2px solid var(--search-boundary-color);
+    display: flex;
+}
+
+#books-in-genre .books .book {
+    width: 16%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+}
+
+#books-in-genre .books .book:hover {
+    cursor: pointer;
+}
+
+#books-in-genre .books .book img {
+    width: 100%;
+    max-height: 250px; /* Force all images to the same height */
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+
+#genre-photo-carousel {
+    background-image: url("./images/genre-gallery/genre-mystery-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#next-genre {
+    margin: 5% auto auto;
+    width: 50%;
+}
+
+/* Search */
+#search-bar {
+    margin: 2% calc(75% / 2);
+    width: 25%;
+    height: 25px;
+    align-self: center;
+    font-size: large;
+}
+
+#search-results {
+    margin-top: 3%;
+}
+
+#results-list {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    justify-content: left;
+}
+
+#results-list li {
+    padding: 0 5%;
+    margin-bottom: 2%;
+}
+
+#results-list li h2 {
+    color: var(--search-boundary-color);
+    display: inline;
+    margin-right: 7.5%;
+}
+
+#results-list li:not(:last-child):after {
+    content: "";
+    display: block;
+    height: 0;
+    border-bottom: 1px solid var(--search-boundary-color);
+}
+
+/* Popular */
+.popular-section {
+    background-color: var(--primary-section-color)
+}
+
+.popular-section h2 {
+    font-size: xx-large;
+    padding: 0 1%;
+}
+
+.popular-section .books {
+    gap: 5%;
+    display: flex;
+}
+
+.popular-section .books .book {
+    width: 40%;
+}
+
+/* Profile */
+#my-sway {
+    font-size: xx-large;
+}
+
+#my-reads {
+    background-color: var(--primary-section-color);
+}
+
+#my-reads .books {
+    display: flex;
+}
+
+#my-reads .books .book {
+    width: 30%;
+    margin: auto;
+}
+
+#profile-info {
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+    margin: auto;
+    width: 50%;
+}
+
+#my-reviews {
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+}
+
+.reviews {
+    list-style: none;
+    padding: 0;
+}
+
+.reviews .review {
+    display: flex;
+    margin: 2.5% 5%;
+}
+
+.reviews .review p {
+    margin: 0 2.5%;
+}
+
+/* Book */
+#book-content-left .book h3 {
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+#book-content-left .book h4 {
+    margin-top: 0;
+    font-size: x-large;
+}
+
+#review-button {
+    text-align: center;
+}
+
+#review-button button {
+    width: 30%;
+    font-size: large;
+    margin: auto;
+}
+
+
+#stars {
+    display: flex;
+    justify-content: center;
+}
+
+#summary {
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+}
+
+#book-reviews {
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+}
+
+/* Review */
+#review-left h3 {
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+#review-left h4 {
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+#review-right {
+    margin: auto;
+    background-color: var(--primary-section-color);
+    border-radius: 10px;
+}
+
+#rating input {
+    font-size: large;
+    text-align: center;
+    width: 15%;
+}
+
+#rating h2 {
+    margin-bottom: 0;
+}
+
+#review-right textarea {
+    width: 80%;
+    margin: 2.5% 10% auto;
+    font-size: large;
+}
+
+#submit-review {
+    width: 40%;
+    margin: 5% 30%;
+    color: var(--tertiary-header-color);
+    font-size: x-large;
+}
+
+/* Contact */
+#contact-us-top img {
+    width: 100%;
+}
+
+#contact-us-bottom {
+    background-color: var(--primary-section-color);
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+#contact-us-bottom ul {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .flex-row {
+        display: flex;
+    }
+
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one {
+        flex: 1;
+    }
+
+    .two {
+        flex: 2;
+    }
+
+    .three {
+        flex: 3;
+    }
+
+    .four {
+        flex: 4;
+    }
+
+    .five {
+        flex: 5;
+    }
+
+    /* Popular */
+    .popular-section .books {
+        gap: 5%;
+    }
+
+    .popular-section .books .book {
+        width: 15%;
+    }
+
+;
+
+    /* Search */
+    #results-list li {
+        padding: 0 25%;
+    }
+
+    /* Profile */
+    #profile-left-content {
+        margin: auto 5% auto auto;
+    }
+
+    #profile-right-content {
+        margin: auto;
+    }
+
+    #my-reads .books .book {
+        width: 25%;
+    }
+
+    .reviews {
+        height: 500px;
+    }
+
+    /* Book */
+    #summary {
+        margin-bottom: 5%;
+    }
+
+    #summary p {
+        margin: 0 5%;
+        padding-bottom: 2%;
+    }
+
+    /* Contact */
+    #contact-us-top img {
+        width: 65%;
+    }
+
+    #contact-us-bottom {
+        width: 50%;
+    }
+
+    #contact-us-bottom ul li p {
+        font-size: large;
+    }
+}
