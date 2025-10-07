@@ -6,6 +6,7 @@
     "cover": "and-then-there-were-none.jpeg",
     "rating": 95,
     "genre": "Mystery",
+    "summary": "Ten strangers are trapped on an island — and picked off one by one.",
     "reviews": [
       {
         "username": "mysterylover",
@@ -24,6 +25,7 @@
     "cover": "murder-on-the-orient-express.jpeg",
     "rating": 92,
     "genre": "Mystery",
+    "summary": "Detective Poirot investigates a murder aboard a luxurious train.",
     "reviews": [
       {
         "username": "trainfan",
@@ -42,6 +44,7 @@
     "cover": "the-murder-of-roger-ackroyd.jpeg",
     "rating": 90,
     "genre": "Mystery",
+    "summary": "A village murder leads Poirot to a shocking revelation.",
     "reviews": [
       {
         "username": "classicreader",
@@ -60,6 +63,7 @@
     "cover": "the-hound-of-the-baskervilles.jpeg",
     "rating": 88,
     "genre": "Mystery",
+    "summary": "Holmes tackles a deadly curse and a spectral hound on the moors.",
     "reviews": [
       {
         "username": "sherlockfan",
@@ -78,6 +82,7 @@
     "cover": "the-moonstone.jpeg ",
     "rating": 85,
     "genre": "Mystery",
+    "summary": "A stolen diamond sparks a twisting investigation.",
     "reviews": [
       {
         "username": "historicalfan",
@@ -96,6 +101,7 @@
     "cover": "the-leavenworth-case.jpeg ",
     "rating": 82,
     "genre": "Mystery",
+    "summary": "A detective unravels a murder in high society.",
     "reviews": [
       {
         "username": "earlycrime",
@@ -114,6 +120,7 @@
     "cover": "gone-girl.jpeg",
     "rating": 89,
     "genre": "Mystery",
+    "summary": "A wife's disappearance unravels a dark and toxic marriage.",
     "reviews": [
       {
         "username": "thrillseeker",
@@ -132,6 +139,7 @@
     "cover": "the-maltese-falcon.jpeg",
     "rating": 87,
     "genre": "Mystery",
+    "summary": "A tough detective chases a priceless artifact in a web of lies.",
     "reviews": [
       {
         "username": "noirnerd",
@@ -150,6 +158,7 @@
     "cover": "the-postman-always-rings-twice.jpeg",
     "rating": 84,
     "genre": "Mystery",
+    "summary": "A drifter gets caught in a deadly affair and a murder plot.",
     "reviews": [
       {
         "username": "darkreads",
@@ -168,6 +177,7 @@
     "cover": "the-secret-history.jpeg",
     "rating": 90,
     "genre": "Mystery",
+    "summary": "A group of elite students descend into moral darkness.",
     "reviews": [
       {
         "username": "campusreader",
@@ -186,6 +196,7 @@
     "cover": "rebecca.jpeg",
     "rating": 91,
     "genre": "Mystery",
+    "summary": "A new wife is haunted by the legacy of her husband's first.",
     "reviews": [
       {
         "username": "gothiclover",
@@ -204,6 +215,7 @@
     "cover": "the-girl-with-the-dragon-tattoo.jpeg",
     "rating": 88,
     "genre": "Mystery",
+    "summary": "A hacker and a journalist investigate a decades-old disappearance.",
     "reviews": [
       {
         "username": "thrilleraddict",
@@ -222,6 +234,7 @@
     "cover": "the-big-little-lies.jpeg",
     "rating": 86,
     "genre": "Mystery",
+    "summary": "Secrets, lies, and murder unfold in a suburban school community.",
     "reviews": [
       {
         "username": "beachread",
@@ -240,6 +253,7 @@
     "cover": "in-the-woods.jpeg",
     "rating": 89,
     "genre": "Mystery",
+    "summary": "A detective investigates a child’s murder tied to his own past.",
     "reviews": [
       {
         "username": "irishmystery",
@@ -258,6 +272,7 @@
     "cover": "the-woman-in-white.jpeg",
     "rating": 83,
     "genre": "Mystery",
+    "summary": "A mysterious woman in white leads to secrets and conspiracies.",
     "reviews": [
       {
         "username": "gothicclassic",
@@ -276,6 +291,7 @@
     "cover": "death-on-the-nile.jpeg",
     "rating": 90,
     "genre": "Mystery",
+    "summary": "Poirot investigates a murder aboard a luxury cruise on the Nile.",
     "reviews": [
       {
         "username": "egyptlover",
@@ -294,6 +310,7 @@
     "cover": "strong_poison.jpeg",
     "rating": 85,
     "genre": "Mystery",
+    "summary": "A writer on trial, a detective in love, and a race to prove innocence.",
     "reviews": [
       {
         "username": "SayersFan",
@@ -312,6 +329,7 @@
     "cover": "the-talented-mr-ripley.jpeg",
     "rating": 88,
     "genre": "Mystery",
+    "summary": "A charming sociopath manipulates, deceives, and kills to get ahead.",
     "reviews": [
       {
         "username": "psychthriller",
@@ -330,6 +348,7 @@
     "cover": "the-big-sleep.jpeg  ",
     "rating": 87,
     "genre": "Mystery",
+    "summary": "Detective Marlowe navigates blackmail, murder, and LA’s dark side.",
     "reviews": [
       {
         "username": "HolmesVsMarlowe",
@@ -348,6 +367,7 @@
     "cover": "the-girl-on-the-train.jpeg",
     "rating": 84,
     "genre": "Mystery",
+    "summary": "An unreliable witness sees something shocking from a train window.",
     "reviews": [
       {
         "username": "suspenseAddict",
@@ -360,3 +380,4 @@
     ]
   }
 ]
+
