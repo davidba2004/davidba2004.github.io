@@ -3,7 +3,7 @@
     "_id": 1,
     "title": "And Then There Were None",
     "author": "Agatha Christie",
-    "cover": "and_then_there_were_none.png",
+    "cover": "and-then-there-were-none.jpeg",
     "rating": 95,
     "genre": "Mystery",
     "reviews": [
@@ -21,7 +21,7 @@
     "_id": 2,
     "title": "Murder on the Orient Express",
     "author": "Agatha Christie",
-    "cover": "murder_on_orient_express.png",
+    "cover": "murder-on-the-orient-express.jpeg",
     "rating": 92,
     "genre": "Mystery",
     "reviews": [
@@ -39,7 +39,7 @@
     "_id": 3,
     "title": "The Murder of Roger Ackroyd",
     "author": "Agatha Christie",
-    "cover": "murder_of_roger_ackroyd.png",
+    "cover": "the-murder-of-roger-ackroyd.jpeg",
     "rating": 90,
     "genre": "Mystery",
     "reviews": [
@@ -57,7 +57,7 @@
     "_id": 4,
     "title": "The Hound of the Baskervilles",
     "author": "Arthur Conan Doyle",
-    "cover": "hound_of_baskervilles.png",
+    "cover": "the-hound-of-the-baskervilles.jpeg",
     "rating": 88,
     "genre": "Mystery",
     "reviews": [
@@ -75,7 +75,7 @@
     "_id": 5,
     "title": "The Moonstone",
     "author": "Wilkie Collins",
-    "cover": "moonstone.png",
+    "cover": "the-moonstone.jpeg ",
     "rating": 85,
     "genre": "Mystery",
     "reviews": [
@@ -93,7 +93,7 @@
     "_id": 6,
     "title": "The Leavenworth Case",
     "author": "Anna Katharine Green",
-    "cover": "leavenworth_case.png",
+    "cover": "the-leavenworth-case.jpeg ",
     "rating": 82,
     "genre": "Mystery",
     "reviews": [
@@ -111,7 +111,7 @@
     "_id": 7,
     "title": "Gone Girl",
     "author": "Gillian Flynn",
-    "cover": "gone_girl.png",
+    "cover": "gone-girl.jpeg",
     "rating": 89,
     "genre": "Mystery",
     "reviews": [
@@ -129,7 +129,7 @@
     "_id": 8,
     "title": "The Maltese Falcon",
     "author": "Dashiell Hammett",
-    "cover": "maltese_falcon.png",
+    "cover": "the-maltese-falcon.jpeg",
     "rating": 87,
     "genre": "Mystery",
     "reviews": [
@@ -147,7 +147,7 @@
     "_id": 9,
     "title": "The Postman Always Rings Twice",
     "author": "James M. Cain",
-    "cover": "postman_always_rings_twice.png",
+    "cover": "the-postman-always-rings-twice.jpeg",
     "rating": 84,
     "genre": "Mystery",
     "reviews": [
@@ -165,7 +165,7 @@
     "_id": 10,
     "title": "The Secret History",
     "author": "Donna Tartt",
-    "cover": "secret_history.png",
+    "cover": "the-secret-history.jpeg",
     "rating": 90,
     "genre": "Mystery",
     "reviews": [
@@ -183,7 +183,7 @@
     "_id": 11,
     "title": "Rebecca",
     "author": "Daphne du Maurier",
-    "cover": "rebecca.png",
+    "cover": "rebecca.jpeg",
     "rating": 91,
     "genre": "Mystery",
     "reviews": [
@@ -201,7 +201,7 @@
     "_id": 12,
     "title": "The Girl with the Dragon Tattoo",
     "author": "Stieg Larsson",
-    "cover": "girl_with_dragon_tattoo.png",
+    "cover": "the-girl-with-the-dragon-tattoo.jpeg",
     "rating": 88,
     "genre": "Mystery",
     "reviews": [
@@ -219,7 +219,7 @@
     "_id": 13,
     "title": "Big Little Lies",
     "author": "Liane Moriarty",
-    "cover": "big_little_lies.png",
+    "cover": "the-big-little-lies.jpeg",
     "rating": 86,
     "genre": "Mystery",
     "reviews": [
@@ -237,7 +237,7 @@
     "_id": 14,
     "title": "In the Woods",
     "author": "Tana French",
-    "cover": "in_the_woods.png",
+    "cover": "in-the-woods.jpeg",
     "rating": 89,
     "genre": "Mystery",
     "reviews": [
@@ -255,7 +255,7 @@
     "_id": 15,
     "title": "The Woman in White",
     "author": "Wilkie Collins",
-    "cover": "woman_in_white.png",
+    "cover": "the-woman-in-white.jpeg",
     "rating": 83,
     "genre": "Mystery",
     "reviews": [
@@ -273,7 +273,7 @@
     "_id": 16,
     "title": "Death on the Nile",
     "author": "Agatha Christie",
-    "cover": "death_on_the_nile.png",
+    "cover": "death-on-the-nile.jpeg",
     "rating": 90,
     "genre": "Mystery",
     "reviews": [
@@ -291,7 +291,7 @@
     "_id": 17,
     "title": "Strong Poison",
     "author": "Dorothy L. Sayers",
-    "cover": "strong_poison.png",
+    "cover": "strong_poison.jpeg",
     "rating": 85,
     "genre": "Mystery",
     "reviews": [
@@ -309,7 +309,7 @@
     "_id": 18,
     "title": "The Talented Mr. Ripley",
     "author": "Patricia Highsmith",
-    "cover": "talented_mr_ripley.png",
+    "cover": "the-talented-mr-ripley.jpeg",
     "rating": 88,
     "genre": "Mystery",
     "reviews": [
@@ -327,7 +327,7 @@
     "_id": 19,
     "title": "The Big Sleep",
     "author": "Raymond Chandler",
-    "cover": "big_sleep.png",
+    "cover": "the-big-sleep.jpeg  ",
     "rating": 87,
     "genre": "Mystery",
     "reviews": [
@@ -345,7 +345,7 @@
     "_id": 20,
     "title": "The Girl on the Train",
     "author": "Paula Hawkins",
-    "cover": "girl_on_train.png",
+    "cover": "the-girl-on-the-train.jpeg",
     "rating": 84,
     "genre": "Mystery",
     "reviews": [
