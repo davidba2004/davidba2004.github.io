@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <header id="main-header">
+        <h1 class="center-text">Contact Us</h1>
+        <img id="menu-toggle" src="images/menu-icon.png" alt="menu-icon">
+        <div id="nav-container">
+            <ul id="nav">
+                <li><a href="index.html">
+                    <p>Home</p>
+                </a></li>
+                <li><a href="popular.html">
+                    <p>Popular</p>
+                </a></li>
+                <li><a href="genre.html">
+                    <p>Genre of the Day</p>
+                </a></li>
+                <li><a href="search.html">
+                    <p>Search</p>
+                </a></li>
+                <li><a href="profile.html">
+                    <p>Profile</p>
+                </a></li>
+                <li><a href="contact.html">
+                    <p>Contact Us</p>
+                </a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="flex-row">
+        <div id="contact-us-top" class="center-text two">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6615.611951619552!2d-81.03679650453934!3d33.99751708961297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb2bb5e98ccf%3A0x8b17d245b7ef8700!2sSouth%20Carolina%20State%20House!5e0!3m2!1sen!2sus!4v1760663332285!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="flex-column one">
+            <div id="contact-us-form" class="two">
+                <form method="POST" id="contact-form">
+                    <input type="hidden" name="access_key" value="374735bd-45da-4b12-88f5-e7363d954e05">
+                    <div>
+                        <p>
+                            <label for="name">Name: </label>
+                            <input type="text" name="name" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" required>
+                        </p>
+                    </div>
+                    <div>
+                        <p><label for="message">Message:</label></p>
+                        <textarea name="message" required></textarea>
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <p><button type="submit">Submit</button></p>
+                        <div id="contact-result"></div>
+                    </div>
+                </form>
+            </div>
+            <div id="contact-us-bottom" class="one">
+                <ul>
+                    <li>
+                        <p>Email: <b>email@domain.com</b></p>
+                    </li>
+                    <li>
+                        <p>Phone: <b>(123) 456-7890</b></p>
+                    </li>
+                    <li>
+                        <p>Address: <b>123 Address Ln.</b></p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <p>Instagram: <b>@thelibrary</b></p>
+                    </li>
+                    <li>
+                        <p>Twitter: <b>@thelibrary</b></p>
+                    </li>
+                    <li>
+                        <p>Facebook: <b>@thelibrary</b></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+<script src="js/script.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
